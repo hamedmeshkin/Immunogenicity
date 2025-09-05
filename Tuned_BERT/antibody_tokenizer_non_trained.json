@@ -1,0 +1,4954 @@
+{
+  "version": "1.0",
+  "truncation": null,
+  "padding": null,
+  "added_tokens": [
+    {
+      "id": 0,
+      "content": "[PAD]",
+      "single_word": false,
+      "lstrip": false,
+      "rstrip": false,
+      "normalized": false,
+      "special": true
+    },
+    {
+      "id": 1,
+      "content": "[CLS]",
+      "single_word": false,
+      "lstrip": false,
+      "rstrip": false,
+      "normalized": false,
+      "special": true
+    },
+    {
+      "id": 2,
+      "content": "[SEP]",
+      "single_word": false,
+      "lstrip": false,
+      "rstrip": false,
+      "normalized": false,
+      "special": true
+    },
+    {
+      "id": 3,
+      "content": "[MASK]",
+      "single_word": false,
+      "lstrip": false,
+      "rstrip": false,
+      "normalized": false,
+      "special": true
+    }
+  ],
+  "normalizer": null,
+  "pre_tokenizer": {
+    "type": "ByteLevel",
+    "add_prefix_space": false,
+    "trim_offsets": true,
+    "use_regex": true
+  },
+  "post_processor": null,
+  "decoder": null,
+  "model": {
+    "type": "BPE",
+    "dropout": null,
+    "unk_token": null,
+    "continuing_subword_prefix": null,
+    "end_of_word_suffix": null,
+    "fuse_unk": false,
+    "byte_fallback": false,
+    "ignore_merges": false,
+    "vocab": {
+      "[PAD]": 0,
+      "[CLS]": 1,
+      "[SEP]": 2,
+      "[MASK]": 3,
+      "A": 4,
+      "B": 5,
+      "C": 6,
+      "D": 7,
+      "E": 8,
+      "F": 9,
+      "G": 10,
+      "H": 11,
+      "I": 12,
+      "K": 13,
+      "L": 14,
+      "M": 15,
+      "N": 16,
+      "P": 17,
+      "Q": 18,
+      "R": 19,
+      "S": 20,
+      "T": 21,
+      "V": 22,
+      "W": 23,
+      "X": 24,
+      "Y": 25,
+      "Z": 26,
+      "Ċ": 27,
+      "SG": 28,
+      "SL": 29,
+      "PG": 30,
+      "YY": 31,
+      "SS": 32,
+      "TL": 33,
+      "SV": 34,
+      "TI": 35,
+      "TV": 36,
+      "GG": 37,
+      "TA": 38,
+      "YYC": 39,
+      "QG": 40,
+      "RF": 41,
+      "ED": 42,
+      "RA": 43,
+      "LE": 44,
+      "VQ": 45,
+      "QQ": 46,
+      "SC": 47,
+      "KG": 48,
+      "QA": 49,
+      "WV": 50,
+      "GQG": 51,
+      "SR": 52,
+      "TF": 53,
+      "QS": 54,
+      "SGSG": 55,
+      "SA": 56,
+      "RL": 57,
+      "WY": 58,
+      "TK": 59,
+      "IY": 60,
+      "AD": 61,
+      "VYYC": 62,
+      "LQ": 63,
+      "LV": 64,
+      "QP": 65,
+      "SN": 66,
+      "SK": 67,
+      "TG": 68,
+      "KPG": 69,
+      "WGQG": 70,
+      "TVSS": 71,
+      "SSL": 72,
+      "SGT": 73,
+      "WYQQ": 74,
+      "RV": 75,
+      "AA": 76,
+      "ESG": 77,
+      "WVR": 78,
+      "ST": 79,
+      "PGKG": 80,
+      "LT": 81,
+      "SY": 82,
+      "PGKGLE": 83,
+      "DF": 84,
+      "TC": 85,
+      "WI": 86,
+      "PS": 87,
+      "TAVYYC": 88,
+      "DI": 89,
+      "KA": 90,
+      "PD": 91,
+      "VTVSS": 92,
+      "LIY": 93,
+      "KL": 94,
+      "SI": 95,
+      "WVRQA": 96,
+      "DN": 97,
+      "MT": 98,
+      "TLTI": 99,
+      "NSL": 100,
+      "EI": 101,
+      "SGF": 102,
+      "AR": 103,
+      "RFSGSG": 104,
+      "NY": 105,
+      "DY": 106,
+      "WGQGTL": 107,
+      "SLRL": 108,
+      "SGV": 109,
+      "GGG": 110,
+      "RFSGSGSGT": 111,
+      "DV": 112,
+      "SLRLSC": 113,
+      "LA": 114,
+      "QSP": 115,
+      "DT": 116,
+      "LVQ": 117,
+      "WYQQKPG": 118,
+      "TKV": 119,
+      "SPG": 120,
+      "RAS": 121,
+      "WGQGTLVTVSS": 122,
+      "YLQ": 123,
+      "TISR": 124,
+      "KGRF": 125,
+      "GD": 126,
+      "PKL": 127,
+      "RP": 128,
+      "SKN": 129,
+      "TLSL": 130,
+      "RFSG": 131,
+      "FA": 132,
+      "QVQ": 133,
+      "SVKGRF": 134,
+      "PGKGLEWV": 135,
+      "QSV": 136,
+      "SD": 137,
+      "EDTAVYYC": 138,
+      "EV": 139,
+      "ESGGG": 140,
+      "MNSL": 141,
+      "TFGQG": 142,
+      "GA": 143,
+      "EVQ": 144,
+      "AASGF": 145,
+      "RFSGSGSGTDF": 146,
+      "TVL": 147,
+      "TISRDN": 148,
+      "RVTI": 149,
+      "EDFA": 150,
+      "GSLRLSC": 151,
+      "EAD": 152,
+      "LVESGGG": 153,
+      "WVRQAPGKGLEWV": 154,
+      "LTQP": 155,
+      "RG": 156,
+      "FGGG": 157,
+      "TLTISSL": 158,
+      "AV": 159,
+      "QAP": 160,
+      "EADYYC": 161,
+      "WM": 162,
+      "KV": 163,
+      "SGA": 164,
+      "DD": 165,
+      "SRV": 166,
+      "AK": 167,
+      "SGG": 168,
+      "SSY": 169,
+      "YLQMNSL": 170,
+      "WG": 171,
+      "SVKGRFTISRDN": 172,
+      "PGGSLRLSC": 173,
+      "LAWYQQKPG": 174,
+      "TKVEI": 175,
+      "SLK": 176,
+      "ERA": 177,
+      "WIR": 178,
+      "PKLLIY": 179,
+      "NP": 180,
+      "MTQSP": 181,
+      "TKL": 182,
+      "TYYC": 183,
+      "AASGFTF": 184,
+      "NN": 185,
+      "SF": 186,
+      "TY": 187,
+      "IK": 188,
+      "FGGGTKL": 189,
+      "TKVEIK": 190,
+      "WGQGT": 191,
+      "QV": 192,
+      "SGY": 193,
+      "TLSC": 194,
+      "WIG": 195,
+      "DG": 196,
+      "SGN": 197,
+      "IP": 198,
+      "SGL": 199,
+      "SVGD": 200,
+      "QF": 201,
+      "RFSGSK": 202,
+      "FGGGTKLTVL": 203,
+      "SASVGD": 204,
+      "EDEADYYC": 205,
+      "TLSLTC": 206,
+      "DIQ": 207,
+      "QQY": 208,
+      "SGVPD": 209,
+      "ASV": 210,
+      "VLT": 211,
+      "RVTITC": 212,
+      "TAAD": 213,
+      "TLSCRAS": 214,
+      "RLLIY": 215,
+      "YF": 216,
+      "QSI": 217,
+      "YYAD": 218,
+      "LTQPP": 219,
+      "LVQPGGSLRLSC": 220,
+      "AI": 221,
+      "KPS": 222,
+      "EVK": 223,
+      "RATG": 224,
+      "EA": 225,
+      "SPGERA": 226,
+      "LG": 227,
+      "PV": 228,
+      "YM": 229,
+      "SSV": 230,
+      "EF": 231,
+      "EVQLVESGGG": 232,
+      "AG": 233,
+      "PGLV": 234,
+      "FG": 235,
+      "SASVGDRVTITC": 236,
+      "DYWGQGTLVTVSS": 237,
+      "EL": 238,
+      "WIRQP": 239,
+      "RAEDTAVYYC": 240,
+      "LQESG": 241,
+      "WF": 242,
+      "EDFAVYYC": 243,
+      "SPGERATLSCRAS": 244,
+      "SGNTA": 245,
+      "TT": 246,
+      "MH": 247,
+      "SP": 248,
+      "DA": 249,
+      "WVRQAPG": 250,
+      "TISC": 251,
+      "QAPRLLIY": 252,
+      "LEIK": 253,
+      "RI": 254,
+      "LVQSGA": 255,
+      "DTSKN": 256,
+      "WMG": 257,
+      "EVKKPG": 258,
+      "LI": 259,
+      "EDTA": 260,
+      "PGKA": 261,
+      "LQESGPGLV": 262,
+      "IG": 263,
+      "TLTISSLQP": 264,
+      "TR": 265,
+      "LN": 266,
+      "IPD": 267,
+      "ETLSLTC": 268,
+      "SASVGDRVTITCRAS": 269,
+      "PGKGLEWIG": 270,
+      "EDV": 271,
+      "TAVYYCAR": 272,
+      "VS": 273,
+      "SKNTL": 274,
+      "PL": 275,
+      "VV": 276,
+      "TVTVSS": 277,
+      "NPSLK": 278,
+      "SGVPS": 279,
+      "EIVLT": 280,
+      "KF": 281,
+      "DP": 282,
+      "DIQMTQSP": 283,
+      "KVSC": 284,
+      "DS": 285,
+      "RY": 286,
+      "QFSL": 287,
+      "SLTI": 288,
+      "KPSETLSLTC": 289,
+      "TSS": 290,
+      "NG": 291,
+      "HY": 292,
+      "TFGGG": 293,
+      "PGQ": 294,
+      "LVQSGAEVKKPG": 295,
+      "QGLE": 296,
+      "LTQPPSV": 297,
+      "SRVTI": 298,
+      "MDV": 299,
+      "SPGERATLSCRASQSV": 300,
+      "RPSGVPD": 301,
+      "YYADSVKGRFTISRDN": 302,
+      "SGSPG": 303,
+      "PEDFAVYYC": 304,
+      "RPSG": 305,
+      "RS": 306,
+      "TFGQGTKVEIK": 307,
+      "YA": 308,
+      "MTQS": 309,
+      "WS": 310,
+      "EDFATYYC": 311,
+      "YG": 312,
+      "DIQMTQSPSSL": 313,
+      "STA": 314,
+      "RFSGSGSGTEF": 315,
+      "MN": 316,
+      "TISCTG": 317,
+      "WVRQAPGQGLE": 318,
+      "TFGQGTK": 319,
+      "QAEDEADYYC": 320,
+      "PGR": 321,
+      "RFSGSGSGTDFTLTI": 322,
+      "TN": 323,
+      "SE": 324,
+      "YLQMNSLRAEDTAVYYC": 325,
+      "QSPG": 326,
+      "DK": 327,
+      "YFC": 328,
+      "QL": 329,
+      "PA": 330,
+      "MS": 331,
+      "LAWYQQKPGQAPRLLIY": 332,
+      "VVQ": 333,
+      "YMEL": 334,
+      "KVSCKA": 335,
+      "SGGSI": 336,
+      "LVQPGGSLRLSCAASGFTF": 337,
+      "DIV": 338,
+      "PGRSLRLSC": 339,
+      "RFSGSKSGNTA": 340,
+      "AKNSL": 341,
+      "QVQLQESGPGLV": 342,
+      "LY": 343,
+      "SGGG": 344,
+      "SGTSA": 345,
+      "KAPKLLIY": 346,
+      "SSVTAAD": 347,
+      "VSWYQQ": 348,
+      "QSPGTLSL": 349,
+      "WP": 350,
+      "QSGVPS": 351,
+      "PGTA": 352,
+      "WIRQPPGKGLEWIG": 353,
+      "SVDTSKN": 354,
+      "SGST": 355,
+      "SLTISGL": 356,
+      "DL": 357,
+      "ESGV": 358,
+      "EG": 359,
+      "KI": 360,
+      "SALTQP": 361,
+      "WA": 362,
+      "STL": 363,
+      "QH": 364,
+      "QKF": 365,
+      "WGQGTTVTVSS": 366,
+      "TFGQGTKLEIK": 367,
+      "SRLE": 368,
+      "RFSGSGSGTDFTLTISSL": 369,
+      "IPA": 370,
+      "TNY": 371,
+      "QVQLVESGGG": 372,
+      "SSSN": 373,
+      "NPSLKSRVTI": 374,
+      "TFG": 375,
+      "TFGGGTKVEIK": 376,
+      "SLG": 377,
+      "RPG": 378,
+      "IYYC": 379,
+      "SVTAAD": 380,
+      "QFSLKL": 381,
+      "TP": 382,
+      "SGYTF": 383,
+      "NF": 384,
+      "RATGIPD": 385,
+      "HPGKA": 386,
+      "DTA": 387,
+      "LH": 388,
+      "QSL": 389,
+      "QVQLVQSGAEVKKPG": 390,
+      "IF": 391,
+      "SNY": 392,
+      "RFSGSKSGTSA": 393,
+      "GV": 394,
+      "KPSETLSLTCTV": 395,
+      "QGRV": 396,
+      "SLAI": 397,
+      "LL": 398,
+      "MD": 399,
+      "WGQGTM": 400,
+      "TISCTGTSS": 401,
+      "SH": 402,
+      "MHWVRQAPGKGLEWV": 403,
+      "EIVLTQSPGTLSL": 404,
+      "WD": 405,
+      "GY": 406,
+      "EDFATYYCQQ": 407,
+      "EDTAVYYCAR": 408,
+      "RATGIPA": 409,
+      "PY": 410,
+      "SGD": 411,
+      "RD": 412,
+      "RPSGV": 413,
+      "NC": 414,
+      "LLE": 415,
+      "SRVEA": 416,
+      "RVTISC": 417,
+      "ASVSGSPG": 418,
+      "KSS": 419,
+      "AN": 420,
+      "ATYYC": 421,
+      "RSS": 422,
+      "IN": 423,
+      "VY": 424,
+      "ADSVKGRFTISRDN": 425,
+      "TKVTVL": 426,
+      "WVRQAPGQGLEWMG": 427,
+      "PSF": 428,
+      "SISC": 429,
+      "TMT": 430,
+      "ASVSGSPGQSI": 431,
+      "MIY": 432,
+      "GGY": 433,
+      "IV": 434,
+      "QVQLVESGGGVVQ": 435,
+      "ASVKVSCKA": 436,
+      "TM": 437,
+      "LYYC": 438,
+      "IPE": 439,
+      "RT": 440,
+      "SGFTF": 441,
+      "WL": 442,
+      "KP": 443,
+      "II": 444,
+      "LPGTA": 445,
+      "VYFC": 446,
+      "NK": 447,
+      "SALTQPASVSGSPGQSI": 448,
+      "PGQRVTISC": 449,
+      "AVYYC": 450,
+      "SSG": 451,
+      "TQ": 452,
+      "TISCTGTSSDV": 453,
+      "TLTC": 454,
+      "WGQGTLV": 455,
+      "RAEDTA": 456,
+      "LVKPG": 457,
+      "KT": 458,
+      "KAP": 459,
+      "TAVYYCA": 460,
+      "EVQLLE": 461,
+      "RFSGSKSGNTASLTISGL": 462,
+      "MDVWGQGTTVTVSS": 463,
+      "DIQMTQSPSSLSASVGDRVTITCRAS": 464,
+      "SLGERA": 465,
+      "WDD": 466,
+      "LTQPPSA": 467,
+      "SVSPG": 468,
+      "AF": 469,
+      "RFSGSGSGTDFTLTISRLE": 470,
+      "SRDN": 471,
+      "WGQGTMVTVSS": 472,
+      "YYWS": 473,
+      "PDSL": 474,
+      "HPGKAPKL": 475,
+      "WFQQ": 476,
+      "RPSGIPE": 477,
+      "GN": 478,
+      "FDYWGQGTLVTVSS": 479,
+      "STR": 480,
+      "VLV": 481,
+      "LAWYQQKPGQAPRLLIYGA": 482,
+      "RFSGSGSGTDFTLTISSLQP": 483,
+      "ISS": 484,
+      "VFG": 485,
+      "VD": 486,
+      "WVRQ": 487,
+      "QAEDV": 488,
+      "TFGPG": 489,
+      "MSWVRQAPGKGLEWV": 490,
+      "GI": 491,
+      "EDVG": 492,
+      "NL": 493,
+      "QFSLKLSSVTAAD": 494,
+      "VMTQSP": 495,
+      "SQ": 496,
+      "LNWYQQKPG": 497,
+      "NTL": 498,
+      "DIK": 499,
+      "PDSLAV": 500,
+      "TINC": 501,
+      "TPG": 502,
+      "NYVSWYQQ": 503,
+      "TSY": 504,
+      "YI": 505,
+      "WN": 506,
+      "LD": 507,
+      "PEDFAVYYCQQY": 508,
+      "RFSGSGSGTDFTL": 509,
+      "LVKPGGSLRLSC": 510,
+      "QSPA": 511,
+      "EVQLLESGGG": 512,
+      "MYYC": 513,
+      "YYADSVKGRFTISRDNSKNTL": 514,
+      "RN": 515,
+      "SPGERATLSCRASQSVSS": 516,
+      "ESGVPD": 517,
+      "RFSGSKSGTSASLAI": 518,
+      "DIVMTQS": 519,
+      "RSD": 520,
+      "SLGERATINC": 521,
+      "GSS": 522,
+      "PF": 523,
+      "LSL": 524,
+      "QSVLTQPPSV": 525,
+      "SSLQSGVPS": 526,
+      "GT": 527,
+      "VA": 528,
+      "DPWGQGTLVTVSS": 529,
+      "WVFGGGTKLTVL": 530,
+      "RPSGIPERFSG": 531,
+      "WASTR": 532,
+      "QGRVTMT": 533,
+      "PGRSLRLSCAASGFTF": 534,
+      "FLQ": 535,
+      "QLQ": 536,
+      "SGI": 537,
+      "TD": 538,
+      "YMELSSL": 539,
+      "LTI": 540,
+      "QTA": 541,
+      "AQKF": 542,
+      "SSRATGIPD": 543,
+      "FY": 544,
+      "SRVEAEDVG": 545,
+      "WTFGQGTKVEIK": 546,
+      "PSTL": 547,
+      "SISCRSS": 548,
+      "WLAWYQQKPG": 549,
+      "DDF": 550,
+      "AVI": 551,
+      "PR": 552,
+      "QAEDVAVYYC": 553,
+      "MNWVRQAPGKGLEWV": 554,
+      "QQYY": 555,
+      "EY": 556,
+      "DIVMTQSPDSLAV": 557,
+      "ASVKVSCKASGYTF": 558,
+      "SLGERATINCKSS": 559,
+      "TLVTVSS": 560,
+      "WGRG": 561,
+      "ATL": 562,
+      "YLQMNSLRAEDTAVYYCAR": 563,
+      "RFSGSGSGTEFTLTISSLQP": 564,
+      "VYYCM": 565,
+      "QSPATLSL": 566,
+      "SGSSSN": 567,
+      "NPSLKSRVTISVDTSKN": 568,
+      "DTST": 569,
+      "RPSGVPDRFSGSKSGTSASLAI": 570,
+      "IIY": 571,
+      "TDF": 572,
+      "MTQSPSTL": 573,
+      "VFGTG": 574,
+      "LPGTAPKLLIY": 575,
+      "WYQH": 576,
+      "SVA": 577,
+      "WASTRESGVPD": 578,
+      "RITC": 579,
+      "KPSETLSLTCTVSGGSI": 580,
+      "QGI": 581,
+      "WLA": 582,
+      "STY": 583,
+      "WGKG": 584,
+      "RPSGVSN": 585,
+      "SYY": 586,
+      "DASN": 587,
+      "EVQLVESGGGLVQPGGSLRLSCAASGFTF": 588,
+      "RFSGSKSGNTASLTISGLQAEDEADYYC": 589,
+      "SISCRSSQSL": 590,
+      "TTVTVSS": 591,
+      "AT": 592,
+      "VPS": 593,
+      "TFGQGTR": 594,
+      "YLQM": 595,
+      "GR": 596,
+      "PLTFGGGTKVEIK": 597,
+      "RGRF": 598,
+      "VFGGGTKLTVL": 599,
+      "KISRVEAEDVG": 600,
+      "DIQMTQSPSTL": 601,
+      "NNK": 602,
+      "ATYYCQQY": 603,
+      "RSL": 604,
+      "NSY": 605,
+      "LVTVSS": 606,
+      "TFGPGTKV": 607,
+      "TISRDD": 608,
+      "DIWGQGTMVTVSS": 609,
+      "NI": 610,
+      "SM": 611,
+      "WYQQKPGQAP": 612,
+      "HF": 613,
+      "QPP": 614,
+      "HPGKAPKLMIY": 615,
+      "LSLPV": 616,
+      "TYY": 617,
+      "EIVMTQSP": 618,
+      "QPPKLLIY": 619,
+      "SAA": 620,
+      "KY": 621,
+      "SGVPDRFSGSGSGTDFTL": 622,
+      "QTLSLTC": 623,
+      "QT": 624,
+      "TLTISSLQS": 625,
+      "SVSPGQTA": 626,
+      "SGSSSNIG": 627,
+      "KGLE": 628,
+      "KAPKLLIYAA": 629,
+      "PP": 630,
+      "EIVLTQSPATLSL": 631,
+      "SISTA": 632,
+      "QLQLQESGPGLV": 633,
+      "SPSF": 634,
+      "SGTDF": 635,
+      "WT": 636,
+      "WMS": 637,
+      "FC": 638,
+      "SGSPGQSV": 639,
+      "SSYA": 640,
+      "EVQLVESGGGLVQPGGSLRLSC": 641,
+      "WVRQAPGQGLEWMGWI": 642,
+      "WVRQM": 643,
+      "DR": 644,
+      "NV": 645,
+      "SVRGRF": 646,
+      "SYDG": 647,
+      "NYLAWYQQKPG": 648,
+      "DIVMTQSPDSLAVSLGERATINCKSS": 649,
+      "DE": 650,
+      "SGSTNY": 651,
+      "QVQL": 652,
+      "PE": 653,
+      "QI": 654,
+      "TFGQGTRLEIK": 655,
+      "YYYY": 656,
+      "NPSL": 657,
+      "SDTA": 658,
+      "SLTV": 659,
+      "YYWG": 660,
+      "QSVLTQPPSA": 661,
+      "PGKGLEWMG": 662,
+      "SYE": 663,
+      "WYLQ": 664,
+      "KYY": 665,
+      "RFSGSGSGTDFTLTISSLE": 666,
+      "GAG": 667,
+      "SNSGNTA": 668,
+      "WFDPWGQGTLVTVSS": 669,
+      "EDTAVYYCA": 670,
+      "KPSQTLSLTC": 671,
+      "HG": 672,
+      "PKLLI": 673,
+      "RPSGIPD": 674,
+      "ISC": 675,
+      "WDDSL": 676,
+      "PEDFAVYYCQQ": 677,
+      "YYADSVKGRF": 678,
+      "TLTLTC": 679,
+      "WFQQKPG": 680,
+      "RSDD": 681,
+      "YMELSSLRS": 682,
+      "YLQW": 683,
+      "LAWYQQ": 684,
+      "TTV": 685,
+      "TRV": 686,
+      "QSY": 687,
+      "SGTPGQRVTISC": 688,
+      "QLLIY": 689,
+      "TLV": 690,
+      "PK": 691,
+      "WVRQAPGKGLE": 692,
+      "WGKGTTVTVSS": 693,
+      "STV": 694,
+      "EIVMTQSPATL": 695,
+      "SSN": 696,
+      "RFSGSGSGTDFTLTISRLEPEDFAVYYCQQY": 697,
+      "QPA": 698,
+      "WVRQAPGKG": 699,
+      "SALTQPASVSGSPGQSITISCTGTSSDV": 700,
+      "KISRVEAEDVGVYYCM": 701,
+      "QAEDVAVYYCQQYY": 702,
+      "SLKISC": 703,
+      "SPSFQG": 704,
+      "STLQSGVPS": 705,
+      "IH": 706,
+      "VFGTGTKVTVL": 707,
+      "DH": 708,
+      "YLQMNSLRAEDTA": 709,
+      "EDFATYYCQQSY": 710,
+      "CSY": 711,
+      "EDFAVYYCQQY": 712,
+      "TRL": 713,
+      "HC": 714,
+      "STRATGIPA": 715,
+      "HWYQQ": 716,
+      "SNSGNTATLTI": 717,
+      "TGD": 718,
+      "QTV": 719,
+      "SVTAADTAVYYCAR": 720,
+      "QGRVTI": 721,
+      "DYWGQG": 722,
+      "MY": 723,
+      "SNN": 724,
+      "MHWVRQAPGKGLEWVAVI": 725,
+      "WYLQKPG": 726,
+      "ESLKISC": 727,
+      "QVQLVESGGGVVQPGRSLRLSCAASGFTF": 728,
+      "QSEDEADYYC": 729,
+      "AQ": 730,
+      "SSI": 731,
+      "SGYSF": 732,
+      "SGFSL": 733,
+      "PGKALE": 734,
+      "VLVIY": 735,
+      "KASDTA": 736,
+      "LTQPPSVSVSPGQTA": 737,
+      "DIQMTQSPSTLSASVGDRVTITCRAS": 738,
+      "QFSLKLSSVTAADTAVYYCAR": 739,
+      "ESGVPS": 740,
+      "HQ": 741,
+      "SDY": 742,
+      "SYI": 743,
+      "LVKPGGSLRLSCAASGFTF": 744,
+      "RSN": 745,
+      "LVESG": 746,
+      "NPSLKSRV": 747,
+      "RFSGSGSGTEFTLTISSLQS": 748,
+      "TISA": 749,
+      "TGL": 750,
+      "SGSTYY": 751,
+      "PGG": 752,
+      "QVQLVQSGAEVKKPGASVKVSCKASGYTF": 753,
+      "SNK": 754,
+      "VDSVKGRFTISRDN": 755,
+      "TGLQ": 756,
+      "EPA": 757,
+      "QVQLQQ": 758,
+      "NTA": 759,
+      "WVRQMPGKGLEWMG": 760,
+      "WASTRESGVPDRFSGSGSGTDFTLTISSL": 761,
+      "TFGPGTKVDIK": 762,
+      "LS": 763,
+      "IVSS": 764,
+      "FLQMNSL": 765,
+      "VG": 766,
+      "PI": 767,
+      "NH": 768,
+      "STI": 769,
+      "QSVLY": 770,
+      "TH": 771,
+      "TLG": 772,
+      "RPSGVPDRFSGSKSGTSASLAISGL": 773,
+      "WMSWVRQAPGKGLEWV": 774,
+      "EVQLVQSGAEVKKPG": 775,
+      "WMGG": 776,
+      "EVQLVESGGGLVQ": 777,
+      "WGRGTLVTVSS": 778,
+      "YLQWSSL": 779,
+      "YIYY": 780,
+      "QAPRLLIYGA": 781,
+      "YYWSWIRQPPGKGLEWIG": 782,
+      "SWYQQ": 783,
+      "SAI": 784,
+      "EP": 785,
+      "VYFCAR": 786,
+      "SSLQP": 787,
+      "TPGEPA": 788,
+      "GGYNYVSWYQQ": 789,
+      "QAED": 790,
+      "VR": 791,
+      "DDFATYYCQQY": 792,
+      "SVSS": 793,
+      "DIQMTQSPSSLSASVGDRVTITCRASQSI": 794,
+      "TVSGGSI": 795,
+      "RLIY": 796,
+      "EIVMTQSPATLSV": 797,
+      "AY": 798,
+      "IYYCAR": 799,
+      "WH": 800,
+      "QAPRL": 801,
+      "MYYCAR": 802,
+      "VL": 803,
+      "WIRQPPGKALE": 804,
+      "ADSVKGRF": 805,
+      "TQTLTLTC": 806,
+      "TLK": 807,
+      "TVS": 808,
+      "EIVLTQSPGTLSLSPGERATLSCRASQSVSS": 809,
+      "GL": 810,
+      "TCRAS": 811,
+      "TS": 812,
+      "QSVLTQPPSASGTPGQRVTISC": 813,
+      "VVFGGGTKLTVL": 814,
+      "QPGGSLRLSC": 815,
+      "SDG": 816,
+      "MTWVRQAPGKGLEWV": 817,
+      "SSNNK": 818,
+      "WYLQKPGQSP": 819,
+      "DIVMTQSP": 820,
+      "QD": 821,
+      "QSVLTQPPSVSGA": 822,
+      "WLG": 823,
+      "VF": 824,
+      "GF": 825,
+      "SPSFQGQV": 826,
+      "EVQLLESGGGLVQPGGSLRLSCAASGFTF": 827,
+      "VH": 828,
+      "PYTFGQGTKLEIK": 829,
+      "PVDTA": 830,
+      "RPSGIPERFSGSNSGNTATLTI": 831,
+      "DSWGQGTLVTVSS": 832,
+      "MTN": 833,
+      "SSVKVSCKA": 834,
+      "WGAG": 835,
+      "SYELTQPPSVSVSPGQTA": 836,
+      "TTY": 837,
+      "SNRA": 838,
+      "SSLQSGVPSRFSGSGSGTDFTLTISSLQP": 839,
+      "YYADSVKGRFTISRDNAKNSL": 840,
+      "AL": 841,
+      "SVDT": 842,
+      "VI": 843,
+      "KPSETLSLTCAV": 844,
+      "QGRVTMTR": 845,
+      "RAEDTAVYYCAR": 846,
+      "QR": 847,
+      "TLKESG": 848,
+      "WIRQA": 849,
+      "KPTQTLTLTC": 850,
+      "KPSETLSLTCTVSGGSISS": 851,
+      "NGN": 852,
+      "TKY": 853,
+      "TSL": 854,
+      "QVVLT": 855,
+      "YLQMNSLRV": 856,
+      "WTFGQG": 857,
+      "ANIK": 858,
+      "LEWV": 859,
+      "DAF": 860,
+      "TGVPS": 861,
+      "QDG": 862,
+      "TISADK": 863,
+      "YGG": 864,
+      "DSS": 865,
+      "WVRQP": 866,
+      "GSY": 867,
+      "YWGQGTLVTVSS": 868,
+      "TLGQPA": 869,
+      "YLQMNSLRAEDTAVYYCA": 870,
+      "DTRY": 871,
+      "AH": 872,
+      "EDSA": 873,
+      "GDEADYYC": 874,
+      "RATGIPARFSGSGSGTDFTLTISSLE": 875,
+      "SAAPGQ": 876,
+      "GMDVWGQGTTVTVSS": 877,
+      "SRL": 878,
+      "RPGQSP": 879,
+      "WGAGLL": 880,
+      "AAWDDSL": 881,
+      "LAWYQQKPGQAPRLLIYGASSRATGIPD": 882,
+      "RFSA": 883,
+      "YYWGWIRQPPGKGLEWIG": 884,
+      "NNY": 885,
+      "QFSLRL": 886,
+      "WMH": 887,
+      "SGS": 888,
+      "SVTAADTA": 889,
+      "SGGTF": 890,
+      "SGVPDRFSGSGSGTDFTLKISRVEAEDVGVYYCM": 891,
+      "SVRGRFTISRDN": 892,
+      "WLAWYQQKPGKAPKLLIY": 893,
+      "IR": 894,
+      "RADD": 895,
+      "SGLQ": 896,
+      "DIQMTQSPSTLSASVGDRVTITCRASQSI": 897,
+      "RPSGVSNRFSGSKSGNTASLTISGLQAEDEADYYC": 898,
+      "SRLTI": 899,
+      "TPGEPASISCRSSQSL": 900,
+      "SSLESGVPS": 901,
+      "MG": 902,
+      "EIK": 903,
+      "SGSPGQSVTISCTGTSSDV": 904,
+      "TVSRDN": 905,
+      "TGA": 906,
+      "QY": 907,
+      "SYV": 908,
+      "QRPSGVPDRFSGSKSGTSASLAISGL": 909,
+      "KSL": 910,
+      "TFY": 911,
+      "LVWV": 912,
+      "TFSGFSL": 913,
+      "TGLQTGD": 914,
+      "PGQRVTISCTG": 915,
+      "PVDTATYYC": 916,
+      "SAY": 917,
+      "DYA": 918,
+      "AKD": 919,
+      "NWYQQ": 920,
+      "YYF": 921,
+      "NT": 922,
+      "EIVLTQSPATLSLSPGERATLSCRASQSV": 923,
+      "ASVKVSC": 924,
+      "YMELRSL": 925,
+      "SALTQPPSA": 926,
+      "AASGFSF": 927,
+      "QVQLQESGPGLVKPSQTLSLTC": 928,
+      "YYY": 929,
+      "SLKLT": 930,
+      "KSG": 931,
+      "NTY": 932,
+      "QVQLVQ": 933,
+      "AS": 934,
+      "PLTFGGG": 935,
+      "LEWMG": 936,
+      "PWTFGQGTKVEIK": 937,
+      "KVTISC": 938,
+      "NYLAWYQQKPGQPPKLLIY": 939,
+      "RSV": 940,
+      "GTV": 941,
+      "YLQWSSLKASDTA": 942,
+      "CSYAG": 943,
+      "RSDDTAVYYCAR": 944,
+      "ET": 945,
+      "DYWGQGTLV": 946,
+      "LM": 947,
+      "MDSL": 948,
+      "WYLQKPGQSPQLLIY": 949,
+      "PGDS": 950,
+      "LF": 951,
+      "LTQSP": 952,
+      "RVTITCRAS": 953,
+      "SIYY": 954,
+      "IIP": 955,
+      "QGRVTITA": 956,
+      "STSTA": 957,
+      "TTA": 958,
+      "EDTALYYC": 959,
+      "QSVLTQPPSVSAAPGQ": 960,
+      "MTNMD": 961,
+      "GGTT": 962,
+      "TLSCRASQSV": 963,
+      "TYFC": 964,
+      "PEDFA": 965,
+      "TLGI": 966,
+      "QVH": 967,
+      "ELT": 968,
+      "KN": 969,
+      "WVRQAPGQGLEWMGG": 970,
+      "EVQLVESG": 971,
+      "QSYD": 972,
+      "YLE": 973,
+      "SLTVSGL": 974,
+      "SLKL": 975,
+      "ESLKISCKG": 976,
+      "AE": 977,
+      "KGLEWIG": 978,
+      "QHY": 979,
+      "GDEADYYCQV": 980,
+      "YLQMNSLKT": 981,
+      "SSYG": 982,
+      "DIVMTQSPDSLAVSLGERATINCKSSQSVLY": 983,
+      "SRI": 984,
+      "ALVTVSS": 985,
+      "NNWP": 986,
+      "PN": 987,
+      "SPSLK": 988,
+      "KKPG": 989,
+      "DIVMTQSPLSLPV": 990,
+      "WIRQPPGKALEWLA": 991,
+      "TGLQTGDEADYYC": 992,
+      "SGSGTDF": 993,
+      "SRG": 994,
+      "FDL": 995,
+      "AKNTL": 996,
+      "SYISS": 997,
+      "SCKA": 998,
+      "HV": 999
+    },
+    "merges": [
+      [
+        "S",
+        "G"
+      ],
+      [
+        "S",
+        "L"
+      ],
+      [
+        "P",
+        "G"
+      ],
+      [
+        "Y",
+        "Y"
+      ],
+      [
+        "S",
+        "S"
+      ],
+      [
+        "T",
+        "L"
+      ],
+      [
+        "S",
+        "V"
+      ],
+      [
+        "T",
+        "I"
+      ],
+      [
+        "T",
+        "V"
+      ],
+      [
+        "G",
+        "G"
+      ],
+      [
+        "T",
+        "A"
+      ],
+      [
+        "YY",
+        "C"
+      ],
+      [
+        "Q",
+        "G"
+      ],
+      [
+        "R",
+        "F"
+      ],
+      [
+        "E",
+        "D"
+      ],
+      [
+        "R",
+        "A"
+      ],
+      [
+        "L",
+        "E"
+      ],
+      [
+        "V",
+        "Q"
+      ],
+      [
+        "Q",
+        "Q"
+      ],
+      [
+        "S",
+        "C"
+      ],
+      [
+        "K",
+        "G"
+      ],
+      [
+        "Q",
+        "A"
+      ],
+      [
+        "W",
+        "V"
+      ],
+      [
+        "G",
+        "QG"
+      ],
+      [
+        "S",
+        "R"
+      ],
+      [
+        "T",
+        "F"
+      ],
+      [
+        "Q",
+        "S"
+      ],
+      [
+        "SG",
+        "SG"
+      ],
+      [
+        "S",
+        "A"
+      ],
+      [
+        "R",
+        "L"
+      ],
+      [
+        "W",
+        "Y"
+      ],
+      [
+        "T",
+        "K"
+      ],
+      [
+        "I",
+        "Y"
+      ],
+      [
+        "A",
+        "D"
+      ],
+      [
+        "V",
+        "YYC"
+      ],
+      [
+        "L",
+        "Q"
+      ],
+      [
+        "L",
+        "V"
+      ],
+      [
+        "Q",
+        "P"
+      ],
+      [
+        "S",
+        "N"
+      ],
+      [
+        "S",
+        "K"
+      ],
+      [
+        "T",
+        "G"
+      ],
+      [
+        "K",
+        "PG"
+      ],
+      [
+        "W",
+        "GQG"
+      ],
+      [
+        "TV",
+        "SS"
+      ],
+      [
+        "S",
+        "SL"
+      ],
+      [
+        "SG",
+        "T"
+      ],
+      [
+        "WY",
+        "QQ"
+      ],
+      [
+        "R",
+        "V"
+      ],
+      [
+        "A",
+        "A"
+      ],
+      [
+        "E",
+        "SG"
+      ],
+      [
+        "WV",
+        "R"
+      ],
+      [
+        "S",
+        "T"
+      ],
+      [
+        "PG",
+        "KG"
+      ],
+      [
+        "L",
+        "T"
+      ],
+      [
+        "S",
+        "Y"
+      ],
+      [
+        "PGKG",
+        "LE"
+      ],
+      [
+        "D",
+        "F"
+      ],
+      [
+        "T",
+        "C"
+      ],
+      [
+        "W",
+        "I"
+      ],
+      [
+        "P",
+        "S"
+      ],
+      [
+        "TA",
+        "VYYC"
+      ],
+      [
+        "D",
+        "I"
+      ],
+      [
+        "K",
+        "A"
+      ],
+      [
+        "P",
+        "D"
+      ],
+      [
+        "V",
+        "TVSS"
+      ],
+      [
+        "L",
+        "IY"
+      ],
+      [
+        "K",
+        "L"
+      ],
+      [
+        "S",
+        "I"
+      ],
+      [
+        "WVR",
+        "QA"
+      ],
+      [
+        "D",
+        "N"
+      ],
+      [
+        "M",
+        "T"
+      ],
+      [
+        "TL",
+        "TI"
+      ],
+      [
+        "N",
+        "SL"
+      ],
+      [
+        "E",
+        "I"
+      ],
+      [
+        "SG",
+        "F"
+      ],
+      [
+        "A",
+        "R"
+      ],
+      [
+        "RF",
+        "SGSG"
+      ],
+      [
+        "N",
+        "Y"
+      ],
+      [
+        "D",
+        "Y"
+      ],
+      [
+        "WGQG",
+        "TL"
+      ],
+      [
+        "SL",
+        "RL"
+      ],
+      [
+        "SG",
+        "V"
+      ],
+      [
+        "GG",
+        "G"
+      ],
+      [
+        "RFSGSG",
+        "SGT"
+      ],
+      [
+        "D",
+        "V"
+      ],
+      [
+        "SLRL",
+        "SC"
+      ],
+      [
+        "L",
+        "A"
+      ],
+      [
+        "QS",
+        "P"
+      ],
+      [
+        "D",
+        "T"
+      ],
+      [
+        "L",
+        "VQ"
+      ],
+      [
+        "WYQQ",
+        "KPG"
+      ],
+      [
+        "TK",
+        "V"
+      ],
+      [
+        "S",
+        "PG"
+      ],
+      [
+        "RA",
+        "S"
+      ],
+      [
+        "WGQGTL",
+        "VTVSS"
+      ],
+      [
+        "Y",
+        "LQ"
+      ],
+      [
+        "TI",
+        "SR"
+      ],
+      [
+        "KG",
+        "RF"
+      ],
+      [
+        "G",
+        "D"
+      ],
+      [
+        "P",
+        "KL"
+      ],
+      [
+        "R",
+        "P"
+      ],
+      [
+        "SK",
+        "N"
+      ],
+      [
+        "TL",
+        "SL"
+      ],
+      [
+        "RF",
+        "SG"
+      ],
+      [
+        "F",
+        "A"
+      ],
+      [
+        "Q",
+        "VQ"
+      ],
+      [
+        "SV",
+        "KGRF"
+      ],
+      [
+        "PGKGLE",
+        "WV"
+      ],
+      [
+        "Q",
+        "SV"
+      ],
+      [
+        "S",
+        "D"
+      ],
+      [
+        "ED",
+        "TAVYYC"
+      ],
+      [
+        "E",
+        "V"
+      ],
+      [
+        "ESG",
+        "GG"
+      ],
+      [
+        "M",
+        "NSL"
+      ],
+      [
+        "TF",
+        "GQG"
+      ],
+      [
+        "G",
+        "A"
+      ],
+      [
+        "E",
+        "VQ"
+      ],
+      [
+        "AA",
+        "SGF"
+      ],
+      [
+        "RFSGSGSGT",
+        "DF"
+      ],
+      [
+        "TV",
+        "L"
+      ],
+      [
+        "TISR",
+        "DN"
+      ],
+      [
+        "RV",
+        "TI"
+      ],
+      [
+        "ED",
+        "FA"
+      ],
+      [
+        "G",
+        "SLRLSC"
+      ],
+      [
+        "E",
+        "AD"
+      ],
+      [
+        "LV",
+        "ESGGG"
+      ],
+      [
+        "WVRQA",
+        "PGKGLEWV"
+      ],
+      [
+        "LT",
+        "QP"
+      ],
+      [
+        "R",
+        "G"
+      ],
+      [
+        "F",
+        "GGG"
+      ],
+      [
+        "TLTI",
+        "SSL"
+      ],
+      [
+        "A",
+        "V"
+      ],
+      [
+        "QA",
+        "P"
+      ],
+      [
+        "EAD",
+        "YYC"
+      ],
+      [
+        "W",
+        "M"
+      ],
+      [
+        "K",
+        "V"
+      ],
+      [
+        "SG",
+        "A"
+      ],
+      [
+        "D",
+        "D"
+      ],
+      [
+        "SR",
+        "V"
+      ],
+      [
+        "A",
+        "K"
+      ],
+      [
+        "SG",
+        "G"
+      ],
+      [
+        "SS",
+        "Y"
+      ],
+      [
+        "YLQ",
+        "MNSL"
+      ],
+      [
+        "W",
+        "G"
+      ],
+      [
+        "SVKGRF",
+        "TISRDN"
+      ],
+      [
+        "PG",
+        "GSLRLSC"
+      ],
+      [
+        "LA",
+        "WYQQKPG"
+      ],
+      [
+        "TKV",
+        "EI"
+      ],
+      [
+        "SL",
+        "K"
+      ],
+      [
+        "E",
+        "RA"
+      ],
+      [
+        "WI",
+        "R"
+      ],
+      [
+        "PKL",
+        "LIY"
+      ],
+      [
+        "N",
+        "P"
+      ],
+      [
+        "MT",
+        "QSP"
+      ],
+      [
+        "TK",
+        "L"
+      ],
+      [
+        "T",
+        "YYC"
+      ],
+      [
+        "AASGF",
+        "TF"
+      ],
+      [
+        "N",
+        "N"
+      ],
+      [
+        "S",
+        "F"
+      ],
+      [
+        "T",
+        "Y"
+      ],
+      [
+        "I",
+        "K"
+      ],
+      [
+        "FGGG",
+        "TKL"
+      ],
+      [
+        "TKVEI",
+        "K"
+      ],
+      [
+        "WGQG",
+        "T"
+      ],
+      [
+        "Q",
+        "V"
+      ],
+      [
+        "SG",
+        "Y"
+      ],
+      [
+        "TL",
+        "SC"
+      ],
+      [
+        "WI",
+        "G"
+      ],
+      [
+        "D",
+        "G"
+      ],
+      [
+        "SG",
+        "N"
+      ],
+      [
+        "I",
+        "P"
+      ],
+      [
+        "SG",
+        "L"
+      ],
+      [
+        "SV",
+        "GD"
+      ],
+      [
+        "Q",
+        "F"
+      ],
+      [
+        "RFSG",
+        "SK"
+      ],
+      [
+        "FGGGTKL",
+        "TVL"
+      ],
+      [
+        "SA",
+        "SVGD"
+      ],
+      [
+        "ED",
+        "EADYYC"
+      ],
+      [
+        "TLSL",
+        "TC"
+      ],
+      [
+        "DI",
+        "Q"
+      ],
+      [
+        "QQ",
+        "Y"
+      ],
+      [
+        "SGV",
+        "PD"
+      ],
+      [
+        "A",
+        "SV"
+      ],
+      [
+        "V",
+        "LT"
+      ],
+      [
+        "RVTI",
+        "TC"
+      ],
+      [
+        "TA",
+        "AD"
+      ],
+      [
+        "TLSC",
+        "RAS"
+      ],
+      [
+        "RL",
+        "LIY"
+      ],
+      [
+        "Y",
+        "F"
+      ],
+      [
+        "QS",
+        "I"
+      ],
+      [
+        "YY",
+        "AD"
+      ],
+      [
+        "LTQP",
+        "P"
+      ],
+      [
+        "LVQ",
+        "PGGSLRLSC"
+      ],
+      [
+        "A",
+        "I"
+      ],
+      [
+        "K",
+        "PS"
+      ],
+      [
+        "EV",
+        "K"
+      ],
+      [
+        "RA",
+        "TG"
+      ],
+      [
+        "E",
+        "A"
+      ],
+      [
+        "SPG",
+        "ERA"
+      ],
+      [
+        "L",
+        "G"
+      ],
+      [
+        "P",
+        "V"
+      ],
+      [
+        "Y",
+        "M"
+      ],
+      [
+        "SS",
+        "V"
+      ],
+      [
+        "E",
+        "F"
+      ],
+      [
+        "EVQ",
+        "LVESGGG"
+      ],
+      [
+        "A",
+        "G"
+      ],
+      [
+        "PG",
+        "LV"
+      ],
+      [
+        "F",
+        "G"
+      ],
+      [
+        "SASVGD",
+        "RVTITC"
+      ],
+      [
+        "DY",
+        "WGQGTLVTVSS"
+      ],
+      [
+        "E",
+        "L"
+      ],
+      [
+        "WIR",
+        "QP"
+      ],
+      [
+        "RA",
+        "EDTAVYYC"
+      ],
+      [
+        "LQ",
+        "ESG"
+      ],
+      [
+        "W",
+        "F"
+      ],
+      [
+        "EDFA",
+        "VYYC"
+      ],
+      [
+        "SPGERA",
+        "TLSCRAS"
+      ],
+      [
+        "SGN",
+        "TA"
+      ],
+      [
+        "T",
+        "T"
+      ],
+      [
+        "M",
+        "H"
+      ],
+      [
+        "S",
+        "P"
+      ],
+      [
+        "D",
+        "A"
+      ],
+      [
+        "WVRQA",
+        "PG"
+      ],
+      [
+        "TI",
+        "SC"
+      ],
+      [
+        "QAP",
+        "RLLIY"
+      ],
+      [
+        "LE",
+        "IK"
+      ],
+      [
+        "R",
+        "I"
+      ],
+      [
+        "LVQ",
+        "SGA"
+      ],
+      [
+        "DT",
+        "SKN"
+      ],
+      [
+        "WM",
+        "G"
+      ],
+      [
+        "EVK",
+        "KPG"
+      ],
+      [
+        "L",
+        "I"
+      ],
+      [
+        "ED",
+        "TA"
+      ],
+      [
+        "PG",
+        "KA"
+      ],
+      [
+        "LQESG",
+        "PGLV"
+      ],
+      [
+        "I",
+        "G"
+      ],
+      [
+        "TLTISSL",
+        "QP"
+      ],
+      [
+        "T",
+        "R"
+      ],
+      [
+        "L",
+        "N"
+      ],
+      [
+        "I",
+        "PD"
+      ],
+      [
+        "E",
+        "TLSLTC"
+      ],
+      [
+        "SASVGDRVTITC",
+        "RAS"
+      ],
+      [
+        "PGKGLE",
+        "WIG"
+      ],
+      [
+        "ED",
+        "V"
+      ],
+      [
+        "TAVYYC",
+        "AR"
+      ],
+      [
+        "V",
+        "S"
+      ],
+      [
+        "SKN",
+        "TL"
+      ],
+      [
+        "P",
+        "L"
+      ],
+      [
+        "V",
+        "V"
+      ],
+      [
+        "TV",
+        "TVSS"
+      ],
+      [
+        "NP",
+        "SLK"
+      ],
+      [
+        "SGV",
+        "PS"
+      ],
+      [
+        "EI",
+        "VLT"
+      ],
+      [
+        "K",
+        "F"
+      ],
+      [
+        "D",
+        "P"
+      ],
+      [
+        "DIQ",
+        "MTQSP"
+      ],
+      [
+        "KV",
+        "SC"
+      ],
+      [
+        "D",
+        "S"
+      ],
+      [
+        "R",
+        "Y"
+      ],
+      [
+        "QF",
+        "SL"
+      ],
+      [
+        "SL",
+        "TI"
+      ],
+      [
+        "KPS",
+        "ETLSLTC"
+      ],
+      [
+        "T",
+        "SS"
+      ],
+      [
+        "N",
+        "G"
+      ],
+      [
+        "H",
+        "Y"
+      ],
+      [
+        "TF",
+        "GGG"
+      ],
+      [
+        "PG",
+        "Q"
+      ],
+      [
+        "LVQSGA",
+        "EVKKPG"
+      ],
+      [
+        "QG",
+        "LE"
+      ],
+      [
+        "LTQPP",
+        "SV"
+      ],
+      [
+        "SRV",
+        "TI"
+      ],
+      [
+        "M",
+        "DV"
+      ],
+      [
+        "SPGERATLSCRAS",
+        "QSV"
+      ],
+      [
+        "RP",
+        "SGVPD"
+      ],
+      [
+        "YYAD",
+        "SVKGRFTISRDN"
+      ],
+      [
+        "SG",
+        "SPG"
+      ],
+      [
+        "P",
+        "EDFAVYYC"
+      ],
+      [
+        "RP",
+        "SG"
+      ],
+      [
+        "R",
+        "S"
+      ],
+      [
+        "TFGQG",
+        "TKVEIK"
+      ],
+      [
+        "Y",
+        "A"
+      ],
+      [
+        "MT",
+        "QS"
+      ],
+      [
+        "W",
+        "S"
+      ],
+      [
+        "EDFA",
+        "TYYC"
+      ],
+      [
+        "Y",
+        "G"
+      ],
+      [
+        "DIQMTQSP",
+        "SSL"
+      ],
+      [
+        "S",
+        "TA"
+      ],
+      [
+        "RFSGSGSGT",
+        "EF"
+      ],
+      [
+        "M",
+        "N"
+      ],
+      [
+        "TISC",
+        "TG"
+      ],
+      [
+        "WVRQAPG",
+        "QGLE"
+      ],
+      [
+        "TFGQG",
+        "TK"
+      ],
+      [
+        "QA",
+        "EDEADYYC"
+      ],
+      [
+        "PG",
+        "R"
+      ],
+      [
+        "RFSGSGSGTDF",
+        "TLTI"
+      ],
+      [
+        "T",
+        "N"
+      ],
+      [
+        "S",
+        "E"
+      ],
+      [
+        "YLQMNSL",
+        "RAEDTAVYYC"
+      ],
+      [
+        "QS",
+        "PG"
+      ],
+      [
+        "D",
+        "K"
+      ],
+      [
+        "YF",
+        "C"
+      ],
+      [
+        "Q",
+        "L"
+      ],
+      [
+        "P",
+        "A"
+      ],
+      [
+        "M",
+        "S"
+      ],
+      [
+        "LAWYQQKPG",
+        "QAPRLLIY"
+      ],
+      [
+        "V",
+        "VQ"
+      ],
+      [
+        "YM",
+        "EL"
+      ],
+      [
+        "KVSC",
+        "KA"
+      ],
+      [
+        "SGG",
+        "SI"
+      ],
+      [
+        "LVQPGGSLRLSC",
+        "AASGFTF"
+      ],
+      [
+        "DI",
+        "V"
+      ],
+      [
+        "PGR",
+        "SLRLSC"
+      ],
+      [
+        "RFSGSK",
+        "SGNTA"
+      ],
+      [
+        "AK",
+        "NSL"
+      ],
+      [
+        "QVQ",
+        "LQESGPGLV"
+      ],
+      [
+        "L",
+        "Y"
+      ],
+      [
+        "SG",
+        "GG"
+      ],
+      [
+        "SGT",
+        "SA"
+      ],
+      [
+        "KA",
+        "PKLLIY"
+      ],
+      [
+        "SSV",
+        "TAAD"
+      ],
+      [
+        "VS",
+        "WYQQ"
+      ],
+      [
+        "QSPG",
+        "TLSL"
+      ],
+      [
+        "W",
+        "P"
+      ],
+      [
+        "Q",
+        "SGVPS"
+      ],
+      [
+        "PG",
+        "TA"
+      ],
+      [
+        "WIRQP",
+        "PGKGLEWIG"
+      ],
+      [
+        "SV",
+        "DTSKN"
+      ],
+      [
+        "SG",
+        "ST"
+      ],
+      [
+        "SLTI",
+        "SGL"
+      ],
+      [
+        "D",
+        "L"
+      ],
+      [
+        "ESG",
+        "V"
+      ],
+      [
+        "E",
+        "G"
+      ],
+      [
+        "K",
+        "I"
+      ],
+      [
+        "SA",
+        "LTQP"
+      ],
+      [
+        "W",
+        "A"
+      ],
+      [
+        "S",
+        "TL"
+      ],
+      [
+        "Q",
+        "H"
+      ],
+      [
+        "Q",
+        "KF"
+      ],
+      [
+        "WGQGT",
+        "TVTVSS"
+      ],
+      [
+        "TFGQGTK",
+        "LEIK"
+      ],
+      [
+        "SR",
+        "LE"
+      ],
+      [
+        "RFSGSGSGTDF",
+        "TLTISSL"
+      ],
+      [
+        "IP",
+        "A"
+      ],
+      [
+        "T",
+        "NY"
+      ],
+      [
+        "QVQ",
+        "LVESGGG"
+      ],
+      [
+        "SS",
+        "SN"
+      ],
+      [
+        "NPSLK",
+        "SRVTI"
+      ],
+      [
+        "TF",
+        "G"
+      ],
+      [
+        "TFGGG",
+        "TKVEIK"
+      ],
+      [
+        "SL",
+        "G"
+      ],
+      [
+        "R",
+        "PG"
+      ],
+      [
+        "I",
+        "YYC"
+      ],
+      [
+        "SV",
+        "TAAD"
+      ],
+      [
+        "QFSL",
+        "KL"
+      ],
+      [
+        "T",
+        "P"
+      ],
+      [
+        "SGY",
+        "TF"
+      ],
+      [
+        "N",
+        "F"
+      ],
+      [
+        "RATG",
+        "IPD"
+      ],
+      [
+        "H",
+        "PGKA"
+      ],
+      [
+        "D",
+        "TA"
+      ],
+      [
+        "L",
+        "H"
+      ],
+      [
+        "Q",
+        "SL"
+      ],
+      [
+        "QVQ",
+        "LVQSGAEVKKPG"
+      ],
+      [
+        "I",
+        "F"
+      ],
+      [
+        "SN",
+        "Y"
+      ],
+      [
+        "RFSGSK",
+        "SGTSA"
+      ],
+      [
+        "G",
+        "V"
+      ],
+      [
+        "KPSETLSLTC",
+        "TV"
+      ],
+      [
+        "QG",
+        "RV"
+      ],
+      [
+        "SL",
+        "AI"
+      ],
+      [
+        "L",
+        "L"
+      ],
+      [
+        "M",
+        "D"
+      ],
+      [
+        "WGQGT",
+        "M"
+      ],
+      [
+        "TISCTG",
+        "TSS"
+      ],
+      [
+        "S",
+        "H"
+      ],
+      [
+        "MH",
+        "WVRQAPGKGLEWV"
+      ],
+      [
+        "EIVLT",
+        "QSPGTLSL"
+      ],
+      [
+        "W",
+        "D"
+      ],
+      [
+        "G",
+        "Y"
+      ],
+      [
+        "EDFATYYC",
+        "QQ"
+      ],
+      [
+        "EDTAVYYC",
+        "AR"
+      ],
+      [
+        "RATG",
+        "IPA"
+      ],
+      [
+        "P",
+        "Y"
+      ],
+      [
+        "SG",
+        "D"
+      ],
+      [
+        "R",
+        "D"
+      ],
+      [
+        "RP",
+        "SGV"
+      ],
+      [
+        "N",
+        "C"
+      ],
+      [
+        "L",
+        "LE"
+      ],
+      [
+        "SRV",
+        "EA"
+      ],
+      [
+        "RVTI",
+        "SC"
+      ],
+      [
+        "ASV",
+        "SGSPG"
+      ],
+      [
+        "K",
+        "SS"
+      ],
+      [
+        "A",
+        "N"
+      ],
+      [
+        "A",
+        "TYYC"
+      ],
+      [
+        "R",
+        "SS"
+      ],
+      [
+        "I",
+        "N"
+      ],
+      [
+        "V",
+        "Y"
+      ],
+      [
+        "AD",
+        "SVKGRFTISRDN"
+      ],
+      [
+        "TKV",
+        "TVL"
+      ],
+      [
+        "WVRQAPGQGLE",
+        "WMG"
+      ],
+      [
+        "PS",
+        "F"
+      ],
+      [
+        "SI",
+        "SC"
+      ],
+      [
+        "T",
+        "MT"
+      ],
+      [
+        "ASVSGSPG",
+        "QSI"
+      ],
+      [
+        "M",
+        "IY"
+      ],
+      [
+        "GG",
+        "Y"
+      ],
+      [
+        "I",
+        "V"
+      ],
+      [
+        "QVQLVESGGG",
+        "VVQ"
+      ],
+      [
+        "ASV",
+        "KVSCKA"
+      ],
+      [
+        "T",
+        "M"
+      ],
+      [
+        "L",
+        "YYC"
+      ],
+      [
+        "IP",
+        "E"
+      ],
+      [
+        "R",
+        "T"
+      ],
+      [
+        "SGF",
+        "TF"
+      ],
+      [
+        "W",
+        "L"
+      ],
+      [
+        "K",
+        "P"
+      ],
+      [
+        "I",
+        "I"
+      ],
+      [
+        "L",
+        "PGTA"
+      ],
+      [
+        "V",
+        "YFC"
+      ],
+      [
+        "N",
+        "K"
+      ],
+      [
+        "SALTQP",
+        "ASVSGSPGQSI"
+      ],
+      [
+        "PGQ",
+        "RVTISC"
+      ],
+      [
+        "A",
+        "VYYC"
+      ],
+      [
+        "S",
+        "SG"
+      ],
+      [
+        "T",
+        "Q"
+      ],
+      [
+        "TISCTGTSS",
+        "DV"
+      ],
+      [
+        "TL",
+        "TC"
+      ],
+      [
+        "WGQGTL",
+        "V"
+      ],
+      [
+        "RA",
+        "EDTA"
+      ],
+      [
+        "LV",
+        "KPG"
+      ],
+      [
+        "K",
+        "T"
+      ],
+      [
+        "KA",
+        "P"
+      ],
+      [
+        "TAVYYC",
+        "A"
+      ],
+      [
+        "EVQ",
+        "LLE"
+      ],
+      [
+        "RFSGSKSGNTA",
+        "SLTISGL"
+      ],
+      [
+        "MDV",
+        "WGQGTTVTVSS"
+      ],
+      [
+        "DIQMTQSPSSL",
+        "SASVGDRVTITCRAS"
+      ],
+      [
+        "SLG",
+        "ERA"
+      ],
+      [
+        "W",
+        "DD"
+      ],
+      [
+        "LTQPP",
+        "SA"
+      ],
+      [
+        "SV",
+        "SPG"
+      ],
+      [
+        "A",
+        "F"
+      ],
+      [
+        "RFSGSGSGTDFTLTI",
+        "SRLE"
+      ],
+      [
+        "SR",
+        "DN"
+      ],
+      [
+        "WGQGTM",
+        "VTVSS"
+      ],
+      [
+        "YY",
+        "WS"
+      ],
+      [
+        "PD",
+        "SL"
+      ],
+      [
+        "HPGKA",
+        "PKL"
+      ],
+      [
+        "WF",
+        "QQ"
+      ],
+      [
+        "RPSG",
+        "IPE"
+      ],
+      [
+        "G",
+        "N"
+      ],
+      [
+        "F",
+        "DYWGQGTLVTVSS"
+      ],
+      [
+        "ST",
+        "R"
+      ],
+      [
+        "V",
+        "LV"
+      ],
+      [
+        "LAWYQQKPGQAPRLLIY",
+        "GA"
+      ],
+      [
+        "RFSGSGSGTDF",
+        "TLTISSLQP"
+      ],
+      [
+        "I",
+        "SS"
+      ],
+      [
+        "V",
+        "FG"
+      ],
+      [
+        "V",
+        "D"
+      ],
+      [
+        "WVR",
+        "Q"
+      ],
+      [
+        "QA",
+        "EDV"
+      ],
+      [
+        "TFG",
+        "PG"
+      ],
+      [
+        "MS",
+        "WVRQAPGKGLEWV"
+      ],
+      [
+        "G",
+        "I"
+      ],
+      [
+        "EDV",
+        "G"
+      ],
+      [
+        "N",
+        "L"
+      ],
+      [
+        "QFSLKL",
+        "SSVTAAD"
+      ],
+      [
+        "V",
+        "MTQSP"
+      ],
+      [
+        "S",
+        "Q"
+      ],
+      [
+        "LN",
+        "WYQQKPG"
+      ],
+      [
+        "N",
+        "TL"
+      ],
+      [
+        "DI",
+        "K"
+      ],
+      [
+        "PDSL",
+        "AV"
+      ],
+      [
+        "TI",
+        "NC"
+      ],
+      [
+        "T",
+        "PG"
+      ],
+      [
+        "NY",
+        "VSWYQQ"
+      ],
+      [
+        "T",
+        "SY"
+      ],
+      [
+        "Y",
+        "I"
+      ],
+      [
+        "W",
+        "N"
+      ],
+      [
+        "L",
+        "D"
+      ],
+      [
+        "PEDFAVYYC",
+        "QQY"
+      ],
+      [
+        "RFSGSGSGTDF",
+        "TL"
+      ],
+      [
+        "LVKPG",
+        "GSLRLSC"
+      ],
+      [
+        "QSP",
+        "A"
+      ],
+      [
+        "EVQLLE",
+        "SGGG"
+      ],
+      [
+        "M",
+        "YYC"
+      ],
+      [
+        "YYADSVKGRFTISRDN",
+        "SKNTL"
+      ],
+      [
+        "R",
+        "N"
+      ],
+      [
+        "SPGERATLSCRASQSV",
+        "SS"
+      ],
+      [
+        "ESGV",
+        "PD"
+      ],
+      [
+        "RFSGSKSGTSA",
+        "SLAI"
+      ],
+      [
+        "DIV",
+        "MTQS"
+      ],
+      [
+        "R",
+        "SD"
+      ],
+      [
+        "SLGERA",
+        "TINC"
+      ],
+      [
+        "G",
+        "SS"
+      ],
+      [
+        "P",
+        "F"
+      ],
+      [
+        "L",
+        "SL"
+      ],
+      [
+        "QSV",
+        "LTQPPSV"
+      ],
+      [
+        "SSL",
+        "QSGVPS"
+      ],
+      [
+        "G",
+        "T"
+      ],
+      [
+        "V",
+        "A"
+      ],
+      [
+        "DP",
+        "WGQGTLVTVSS"
+      ],
+      [
+        "WV",
+        "FGGGTKLTVL"
+      ],
+      [
+        "RPSGIPE",
+        "RFSG"
+      ],
+      [
+        "WA",
+        "STR"
+      ],
+      [
+        "QGRV",
+        "TMT"
+      ],
+      [
+        "PGRSLRLSC",
+        "AASGFTF"
+      ],
+      [
+        "F",
+        "LQ"
+      ],
+      [
+        "Q",
+        "LQ"
+      ],
+      [
+        "SG",
+        "I"
+      ],
+      [
+        "T",
+        "D"
+      ],
+      [
+        "YMEL",
+        "SSL"
+      ],
+      [
+        "L",
+        "TI"
+      ],
+      [
+        "Q",
+        "TA"
+      ],
+      [
+        "A",
+        "QKF"
+      ],
+      [
+        "SS",
+        "RATGIPD"
+      ],
+      [
+        "F",
+        "Y"
+      ],
+      [
+        "SRVEA",
+        "EDVG"
+      ],
+      [
+        "W",
+        "TFGQGTKVEIK"
+      ],
+      [
+        "PS",
+        "TL"
+      ],
+      [
+        "SISC",
+        "RSS"
+      ],
+      [
+        "W",
+        "LAWYQQKPG"
+      ],
+      [
+        "D",
+        "DF"
+      ],
+      [
+        "AV",
+        "I"
+      ],
+      [
+        "P",
+        "R"
+      ],
+      [
+        "QAEDV",
+        "AVYYC"
+      ],
+      [
+        "MN",
+        "WVRQAPGKGLEWV"
+      ],
+      [
+        "QQ",
+        "YY"
+      ],
+      [
+        "E",
+        "Y"
+      ],
+      [
+        "DIVMTQS",
+        "PDSLAV"
+      ],
+      [
+        "ASVKVSCKA",
+        "SGYTF"
+      ],
+      [
+        "SLGERATINC",
+        "KSS"
+      ],
+      [
+        "TL",
+        "VTVSS"
+      ],
+      [
+        "WG",
+        "RG"
+      ],
+      [
+        "A",
+        "TL"
+      ],
+      [
+        "YLQMNSLRAEDTAVYYC",
+        "AR"
+      ],
+      [
+        "RFSGSGSGTEF",
+        "TLTISSLQP"
+      ],
+      [
+        "VYYC",
+        "M"
+      ],
+      [
+        "QSPA",
+        "TLSL"
+      ],
+      [
+        "SG",
+        "SSSN"
+      ],
+      [
+        "NPSLKSRVTI",
+        "SVDTSKN"
+      ],
+      [
+        "DT",
+        "ST"
+      ],
+      [
+        "RPSGVPD",
+        "RFSGSKSGTSASLAI"
+      ],
+      [
+        "I",
+        "IY"
+      ],
+      [
+        "T",
+        "DF"
+      ],
+      [
+        "MTQS",
+        "PSTL"
+      ],
+      [
+        "VFG",
+        "TG"
+      ],
+      [
+        "LPGTA",
+        "PKLLIY"
+      ],
+      [
+        "WY",
+        "QH"
+      ],
+      [
+        "SV",
+        "A"
+      ],
+      [
+        "WASTR",
+        "ESGVPD"
+      ],
+      [
+        "RI",
+        "TC"
+      ],
+      [
+        "KPSETLSLTCTV",
+        "SGGSI"
+      ],
+      [
+        "QG",
+        "I"
+      ],
+      [
+        "W",
+        "LA"
+      ],
+      [
+        "ST",
+        "Y"
+      ],
+      [
+        "WG",
+        "KG"
+      ],
+      [
+        "RPSGV",
+        "SN"
+      ],
+      [
+        "S",
+        "YY"
+      ],
+      [
+        "DA",
+        "SN"
+      ],
+      [
+        "EVQLVESGGG",
+        "LVQPGGSLRLSCAASGFTF"
+      ],
+      [
+        "RFSGSKSGNTASLTISGL",
+        "QAEDEADYYC"
+      ],
+      [
+        "SISCRSS",
+        "QSL"
+      ],
+      [
+        "T",
+        "TVTVSS"
+      ],
+      [
+        "A",
+        "T"
+      ],
+      [
+        "V",
+        "PS"
+      ],
+      [
+        "TFGQG",
+        "TR"
+      ],
+      [
+        "YLQ",
+        "M"
+      ],
+      [
+        "G",
+        "R"
+      ],
+      [
+        "PL",
+        "TFGGGTKVEIK"
+      ],
+      [
+        "RG",
+        "RF"
+      ],
+      [
+        "V",
+        "FGGGTKLTVL"
+      ],
+      [
+        "KI",
+        "SRVEAEDVG"
+      ],
+      [
+        "DIQ",
+        "MTQSPSTL"
+      ],
+      [
+        "NN",
+        "K"
+      ],
+      [
+        "ATYYC",
+        "QQY"
+      ],
+      [
+        "R",
+        "SL"
+      ],
+      [
+        "N",
+        "SY"
+      ],
+      [
+        "LV",
+        "TVSS"
+      ],
+      [
+        "TFGPG",
+        "TKV"
+      ],
+      [
+        "TISR",
+        "DD"
+      ],
+      [
+        "DI",
+        "WGQGTMVTVSS"
+      ],
+      [
+        "N",
+        "I"
+      ],
+      [
+        "S",
+        "M"
+      ],
+      [
+        "WYQQKPG",
+        "QAP"
+      ],
+      [
+        "H",
+        "F"
+      ],
+      [
+        "QP",
+        "P"
+      ],
+      [
+        "HPGKAPKL",
+        "MIY"
+      ],
+      [
+        "LSL",
+        "PV"
+      ],
+      [
+        "T",
+        "YY"
+      ],
+      [
+        "EI",
+        "VMTQSP"
+      ],
+      [
+        "QP",
+        "PKLLIY"
+      ],
+      [
+        "SA",
+        "A"
+      ],
+      [
+        "K",
+        "Y"
+      ],
+      [
+        "SGVPD",
+        "RFSGSGSGTDFTL"
+      ],
+      [
+        "Q",
+        "TLSLTC"
+      ],
+      [
+        "Q",
+        "T"
+      ],
+      [
+        "TLTISSL",
+        "QS"
+      ],
+      [
+        "SVSPG",
+        "QTA"
+      ],
+      [
+        "SGSSSN",
+        "IG"
+      ],
+      [
+        "KG",
+        "LE"
+      ],
+      [
+        "KAPKLLIY",
+        "AA"
+      ],
+      [
+        "P",
+        "P"
+      ],
+      [
+        "EIVLT",
+        "QSPATLSL"
+      ],
+      [
+        "SI",
+        "STA"
+      ],
+      [
+        "QLQ",
+        "LQESGPGLV"
+      ],
+      [
+        "S",
+        "PSF"
+      ],
+      [
+        "SGT",
+        "DF"
+      ],
+      [
+        "W",
+        "T"
+      ],
+      [
+        "WM",
+        "S"
+      ],
+      [
+        "F",
+        "C"
+      ],
+      [
+        "SGSPG",
+        "QSV"
+      ],
+      [
+        "SSY",
+        "A"
+      ],
+      [
+        "EVQLVESGGG",
+        "LVQPGGSLRLSC"
+      ],
+      [
+        "WVRQAPGQGLEWMG",
+        "WI"
+      ],
+      [
+        "WVRQ",
+        "M"
+      ],
+      [
+        "D",
+        "R"
+      ],
+      [
+        "N",
+        "V"
+      ],
+      [
+        "SV",
+        "RGRF"
+      ],
+      [
+        "SY",
+        "DG"
+      ],
+      [
+        "NY",
+        "LAWYQQKPG"
+      ],
+      [
+        "DIVMTQSPDSLAV",
+        "SLGERATINCKSS"
+      ],
+      [
+        "D",
+        "E"
+      ],
+      [
+        "SGST",
+        "NY"
+      ],
+      [
+        "QVQ",
+        "L"
+      ],
+      [
+        "P",
+        "E"
+      ],
+      [
+        "Q",
+        "I"
+      ],
+      [
+        "TFGQGTR",
+        "LEIK"
+      ],
+      [
+        "YY",
+        "YY"
+      ],
+      [
+        "NP",
+        "SL"
+      ],
+      [
+        "SD",
+        "TA"
+      ],
+      [
+        "SL",
+        "TV"
+      ],
+      [
+        "YY",
+        "WG"
+      ],
+      [
+        "QSV",
+        "LTQPPSA"
+      ],
+      [
+        "PGKGLE",
+        "WMG"
+      ],
+      [
+        "SY",
+        "E"
+      ],
+      [
+        "WY",
+        "LQ"
+      ],
+      [
+        "K",
+        "YY"
+      ],
+      [
+        "RFSGSGSGTDFTLTISSL",
+        "E"
+      ],
+      [
+        "GA",
+        "G"
+      ],
+      [
+        "SN",
+        "SGNTA"
+      ],
+      [
+        "WF",
+        "DPWGQGTLVTVSS"
+      ],
+      [
+        "EDTAVYYC",
+        "A"
+      ],
+      [
+        "KPS",
+        "QTLSLTC"
+      ],
+      [
+        "H",
+        "G"
+      ],
+      [
+        "PKL",
+        "LI"
+      ],
+      [
+        "RPSG",
+        "IPD"
+      ],
+      [
+        "I",
+        "SC"
+      ],
+      [
+        "WDD",
+        "SL"
+      ],
+      [
+        "PEDFAVYYC",
+        "QQ"
+      ],
+      [
+        "YYAD",
+        "SVKGRF"
+      ],
+      [
+        "TL",
+        "TLTC"
+      ],
+      [
+        "WFQQ",
+        "KPG"
+      ],
+      [
+        "RSD",
+        "D"
+      ],
+      [
+        "YMELSSL",
+        "RS"
+      ],
+      [
+        "YLQ",
+        "W"
+      ],
+      [
+        "LA",
+        "WYQQ"
+      ],
+      [
+        "T",
+        "TV"
+      ],
+      [
+        "T",
+        "RV"
+      ],
+      [
+        "QS",
+        "Y"
+      ],
+      [
+        "SGT",
+        "PGQRVTISC"
+      ],
+      [
+        "QL",
+        "LIY"
+      ],
+      [
+        "TL",
+        "V"
+      ],
+      [
+        "P",
+        "K"
+      ],
+      [
+        "WVRQA",
+        "PGKGLE"
+      ],
+      [
+        "WGKG",
+        "TTVTVSS"
+      ],
+      [
+        "S",
+        "TV"
+      ],
+      [
+        "EIVMTQSP",
+        "ATL"
+      ],
+      [
+        "SS",
+        "N"
+      ],
+      [
+        "RFSGSGSGTDFTLTISRLE",
+        "PEDFAVYYCQQY"
+      ],
+      [
+        "QP",
+        "A"
+      ],
+      [
+        "WVRQA",
+        "PGKG"
+      ],
+      [
+        "SALTQPASVSGSPGQSI",
+        "TISCTGTSSDV"
+      ],
+      [
+        "KISRVEAEDVG",
+        "VYYCM"
+      ],
+      [
+        "QAEDVAVYYC",
+        "QQYY"
+      ],
+      [
+        "SLK",
+        "ISC"
+      ],
+      [
+        "SPSF",
+        "QG"
+      ],
+      [
+        "STL",
+        "QSGVPS"
+      ],
+      [
+        "I",
+        "H"
+      ],
+      [
+        "VFGTG",
+        "TKVTVL"
+      ],
+      [
+        "D",
+        "H"
+      ],
+      [
+        "YLQMNSL",
+        "RAEDTA"
+      ],
+      [
+        "EDFATYYCQQ",
+        "SY"
+      ],
+      [
+        "C",
+        "SY"
+      ],
+      [
+        "EDFAVYYC",
+        "QQY"
+      ],
+      [
+        "T",
+        "RL"
+      ],
+      [
+        "H",
+        "C"
+      ],
+      [
+        "ST",
+        "RATGIPA"
+      ],
+      [
+        "H",
+        "WYQQ"
+      ],
+      [
+        "SNSGNTA",
+        "TLTI"
+      ],
+      [
+        "TG",
+        "D"
+      ],
+      [
+        "Q",
+        "TV"
+      ],
+      [
+        "SVTAAD",
+        "TAVYYCAR"
+      ],
+      [
+        "QG",
+        "RVTI"
+      ],
+      [
+        "DY",
+        "WGQG"
+      ],
+      [
+        "M",
+        "Y"
+      ],
+      [
+        "SN",
+        "N"
+      ],
+      [
+        "MHWVRQAPGKGLEWV",
+        "AVI"
+      ],
+      [
+        "WYLQ",
+        "KPG"
+      ],
+      [
+        "E",
+        "SLKISC"
+      ],
+      [
+        "QVQLVESGGGVVQ",
+        "PGRSLRLSCAASGFTF"
+      ],
+      [
+        "QS",
+        "EDEADYYC"
+      ],
+      [
+        "A",
+        "Q"
+      ],
+      [
+        "SS",
+        "I"
+      ],
+      [
+        "SGY",
+        "SF"
+      ],
+      [
+        "SGF",
+        "SL"
+      ],
+      [
+        "PGKA",
+        "LE"
+      ],
+      [
+        "VLV",
+        "IY"
+      ],
+      [
+        "KA",
+        "SDTA"
+      ],
+      [
+        "LTQPPSV",
+        "SVSPGQTA"
+      ],
+      [
+        "DIQMTQSPSTL",
+        "SASVGDRVTITCRAS"
+      ],
+      [
+        "QFSLKLSSVTAAD",
+        "TAVYYCAR"
+      ],
+      [
+        "ESGV",
+        "PS"
+      ],
+      [
+        "H",
+        "Q"
+      ],
+      [
+        "S",
+        "DY"
+      ],
+      [
+        "SY",
+        "I"
+      ],
+      [
+        "LVKPGGSLRLSC",
+        "AASGFTF"
+      ],
+      [
+        "R",
+        "SN"
+      ],
+      [
+        "LV",
+        "ESG"
+      ],
+      [
+        "NPSLK",
+        "SRV"
+      ],
+      [
+        "RFSGSGSGTEF",
+        "TLTISSLQS"
+      ],
+      [
+        "TI",
+        "SA"
+      ],
+      [
+        "TG",
+        "L"
+      ],
+      [
+        "SGST",
+        "YY"
+      ],
+      [
+        "PG",
+        "G"
+      ],
+      [
+        "QVQLVQSGAEVKKPG",
+        "ASVKVSCKASGYTF"
+      ],
+      [
+        "SN",
+        "K"
+      ],
+      [
+        "VD",
+        "SVKGRFTISRDN"
+      ],
+      [
+        "TG",
+        "LQ"
+      ],
+      [
+        "E",
+        "PA"
+      ],
+      [
+        "QVQL",
+        "QQ"
+      ],
+      [
+        "N",
+        "TA"
+      ],
+      [
+        "WVRQM",
+        "PGKGLEWMG"
+      ],
+      [
+        "WASTRESGVPD",
+        "RFSGSGSGTDFTLTISSL"
+      ],
+      [
+        "TFGPGTKV",
+        "DIK"
+      ],
+      [
+        "L",
+        "S"
+      ],
+      [
+        "IV",
+        "SS"
+      ],
+      [
+        "FLQ",
+        "MNSL"
+      ],
+      [
+        "V",
+        "G"
+      ],
+      [
+        "P",
+        "I"
+      ],
+      [
+        "N",
+        "H"
+      ],
+      [
+        "S",
+        "TI"
+      ],
+      [
+        "QSV",
+        "LY"
+      ],
+      [
+        "T",
+        "H"
+      ],
+      [
+        "TL",
+        "G"
+      ],
+      [
+        "RPSGVPDRFSGSKSGTSASLAI",
+        "SGL"
+      ],
+      [
+        "WMS",
+        "WVRQAPGKGLEWV"
+      ],
+      [
+        "EVQ",
+        "LVQSGAEVKKPG"
+      ],
+      [
+        "WM",
+        "GG"
+      ],
+      [
+        "EVQLVESGGG",
+        "LVQ"
+      ],
+      [
+        "WGRG",
+        "TLVTVSS"
+      ],
+      [
+        "YLQW",
+        "SSL"
+      ],
+      [
+        "YI",
+        "YY"
+      ],
+      [
+        "QAPRLLIY",
+        "GA"
+      ],
+      [
+        "YYWS",
+        "WIRQPPGKGLEWIG"
+      ],
+      [
+        "S",
+        "WYQQ"
+      ],
+      [
+        "SA",
+        "I"
+      ],
+      [
+        "E",
+        "P"
+      ],
+      [
+        "VYFC",
+        "AR"
+      ],
+      [
+        "SSL",
+        "QP"
+      ],
+      [
+        "TPG",
+        "EPA"
+      ],
+      [
+        "GGY",
+        "NYVSWYQQ"
+      ],
+      [
+        "QA",
+        "ED"
+      ],
+      [
+        "V",
+        "R"
+      ],
+      [
+        "DDF",
+        "ATYYCQQY"
+      ],
+      [
+        "SV",
+        "SS"
+      ],
+      [
+        "DIQMTQSPSSLSASVGDRVTITCRAS",
+        "QSI"
+      ],
+      [
+        "TV",
+        "SGGSI"
+      ],
+      [
+        "RL",
+        "IY"
+      ],
+      [
+        "EIVMTQSPATL",
+        "SV"
+      ],
+      [
+        "A",
+        "Y"
+      ],
+      [
+        "IYYC",
+        "AR"
+      ],
+      [
+        "W",
+        "H"
+      ],
+      [
+        "QAP",
+        "RL"
+      ],
+      [
+        "MYYC",
+        "AR"
+      ],
+      [
+        "V",
+        "L"
+      ],
+      [
+        "WIRQP",
+        "PGKALE"
+      ],
+      [
+        "AD",
+        "SVKGRF"
+      ],
+      [
+        "TQ",
+        "TLTLTC"
+      ],
+      [
+        "TL",
+        "K"
+      ],
+      [
+        "TV",
+        "S"
+      ],
+      [
+        "EIVLTQSPGTLSL",
+        "SPGERATLSCRASQSVSS"
+      ],
+      [
+        "G",
+        "L"
+      ],
+      [
+        "TC",
+        "RAS"
+      ],
+      [
+        "T",
+        "S"
+      ],
+      [
+        "QSVLTQPPSA",
+        "SGTPGQRVTISC"
+      ],
+      [
+        "VV",
+        "FGGGTKLTVL"
+      ],
+      [
+        "Q",
+        "PGGSLRLSC"
+      ],
+      [
+        "SD",
+        "G"
+      ],
+      [
+        "MT",
+        "WVRQAPGKGLEWV"
+      ],
+      [
+        "SS",
+        "NNK"
+      ],
+      [
+        "WYLQKPG",
+        "QSP"
+      ],
+      [
+        "DIV",
+        "MTQSP"
+      ],
+      [
+        "Q",
+        "D"
+      ],
+      [
+        "QSVLTQPPSV",
+        "SGA"
+      ],
+      [
+        "W",
+        "LG"
+      ],
+      [
+        "V",
+        "F"
+      ],
+      [
+        "G",
+        "F"
+      ],
+      [
+        "SPSFQG",
+        "QV"
+      ],
+      [
+        "EVQLLESGGG",
+        "LVQPGGSLRLSCAASGFTF"
+      ],
+      [
+        "V",
+        "H"
+      ],
+      [
+        "PY",
+        "TFGQGTKLEIK"
+      ],
+      [
+        "PV",
+        "DTA"
+      ],
+      [
+        "RPSGIPERFSG",
+        "SNSGNTATLTI"
+      ],
+      [
+        "DS",
+        "WGQGTLVTVSS"
+      ],
+      [
+        "MT",
+        "N"
+      ],
+      [
+        "SSV",
+        "KVSCKA"
+      ],
+      [
+        "W",
+        "GAG"
+      ],
+      [
+        "SYE",
+        "LTQPPSVSVSPGQTA"
+      ],
+      [
+        "T",
+        "TY"
+      ],
+      [
+        "SN",
+        "RA"
+      ],
+      [
+        "SSLQSGVPS",
+        "RFSGSGSGTDFTLTISSLQP"
+      ],
+      [
+        "YYADSVKGRFTISRDN",
+        "AKNSL"
+      ],
+      [
+        "A",
+        "L"
+      ],
+      [
+        "SV",
+        "DT"
+      ],
+      [
+        "V",
+        "I"
+      ],
+      [
+        "KPSETLSLTC",
+        "AV"
+      ],
+      [
+        "QGRVTMT",
+        "R"
+      ],
+      [
+        "RAEDTAVYYC",
+        "AR"
+      ],
+      [
+        "Q",
+        "R"
+      ],
+      [
+        "TLK",
+        "ESG"
+      ],
+      [
+        "WIR",
+        "QA"
+      ],
+      [
+        "KP",
+        "TQTLTLTC"
+      ],
+      [
+        "KPSETLSLTCTVSGGSI",
+        "SS"
+      ],
+      [
+        "NG",
+        "N"
+      ],
+      [
+        "TK",
+        "Y"
+      ],
+      [
+        "T",
+        "SL"
+      ],
+      [
+        "QV",
+        "VLT"
+      ],
+      [
+        "YLQMNSL",
+        "RV"
+      ],
+      [
+        "W",
+        "TFGQG"
+      ],
+      [
+        "AN",
+        "IK"
+      ],
+      [
+        "LE",
+        "WV"
+      ],
+      [
+        "DA",
+        "F"
+      ],
+      [
+        "TG",
+        "VPS"
+      ],
+      [
+        "Q",
+        "DG"
+      ],
+      [
+        "TISA",
+        "DK"
+      ],
+      [
+        "Y",
+        "GG"
+      ],
+      [
+        "D",
+        "SS"
+      ],
+      [
+        "WVR",
+        "QP"
+      ],
+      [
+        "G",
+        "SY"
+      ],
+      [
+        "Y",
+        "WGQGTLVTVSS"
+      ],
+      [
+        "TLG",
+        "QPA"
+      ],
+      [
+        "YLQMNSLRAEDTAVYYC",
+        "A"
+      ],
+      [
+        "DT",
+        "RY"
+      ],
+      [
+        "A",
+        "H"
+      ],
+      [
+        "ED",
+        "SA"
+      ],
+      [
+        "GD",
+        "EADYYC"
+      ],
+      [
+        "RATGIPA",
+        "RFSGSGSGTDFTLTISSLE"
+      ],
+      [
+        "SAA",
+        "PGQ"
+      ],
+      [
+        "G",
+        "MDVWGQGTTVTVSS"
+      ],
+      [
+        "SR",
+        "L"
+      ],
+      [
+        "RPG",
+        "QSP"
+      ],
+      [
+        "WGAG",
+        "LL"
+      ],
+      [
+        "AA",
+        "WDDSL"
+      ],
+      [
+        "LAWYQQKPGQAPRLLIYGA",
+        "SSRATGIPD"
+      ],
+      [
+        "RF",
+        "SA"
+      ],
+      [
+        "YYWG",
+        "WIRQPPGKGLEWIG"
+      ],
+      [
+        "N",
+        "NY"
+      ],
+      [
+        "QF",
+        "SLRL"
+      ],
+      [
+        "WM",
+        "H"
+      ],
+      [
+        "SG",
+        "S"
+      ],
+      [
+        "SVTAAD",
+        "TA"
+      ],
+      [
+        "SGG",
+        "TF"
+      ],
+      [
+        "SGVPDRFSGSGSGTDFTL",
+        "KISRVEAEDVGVYYCM"
+      ],
+      [
+        "SVRGRF",
+        "TISRDN"
+      ],
+      [
+        "WLAWYQQKPG",
+        "KAPKLLIY"
+      ],
+      [
+        "I",
+        "R"
+      ],
+      [
+        "RA",
+        "DD"
+      ],
+      [
+        "SG",
+        "LQ"
+      ],
+      [
+        "DIQMTQSPSTLSASVGDRVTITCRAS",
+        "QSI"
+      ],
+      [
+        "RPSGVSN",
+        "RFSGSKSGNTASLTISGLQAEDEADYYC"
+      ],
+      [
+        "SR",
+        "LTI"
+      ],
+      [
+        "TPGEPA",
+        "SISCRSSQSL"
+      ],
+      [
+        "SSL",
+        "ESGVPS"
+      ],
+      [
+        "M",
+        "G"
+      ],
+      [
+        "EI",
+        "K"
+      ],
+      [
+        "SGSPGQSV",
+        "TISCTGTSSDV"
+      ],
+      [
+        "TV",
+        "SRDN"
+      ],
+      [
+        "TG",
+        "A"
+      ],
+      [
+        "Q",
+        "Y"
+      ],
+      [
+        "SY",
+        "V"
+      ],
+      [
+        "Q",
+        "RPSGVPDRFSGSKSGTSASLAISGL"
+      ],
+      [
+        "K",
+        "SL"
+      ],
+      [
+        "TF",
+        "Y"
+      ],
+      [
+        "LV",
+        "WV"
+      ],
+      [
+        "TF",
+        "SGFSL"
+      ],
+      [
+        "TGLQ",
+        "TGD"
+      ],
+      [
+        "PGQRVTISC",
+        "TG"
+      ],
+      [
+        "PVDTA",
+        "TYYC"
+      ],
+      [
+        "SA",
+        "Y"
+      ],
+      [
+        "DY",
+        "A"
+      ],
+      [
+        "AK",
+        "D"
+      ],
+      [
+        "N",
+        "WYQQ"
+      ],
+      [
+        "YY",
+        "F"
+      ],
+      [
+        "N",
+        "T"
+      ],
+      [
+        "EIVLTQSPATLSL",
+        "SPGERATLSCRASQSV"
+      ],
+      [
+        "ASV",
+        "KVSC"
+      ],
+      [
+        "YMEL",
+        "RSL"
+      ],
+      [
+        "SA",
+        "LTQPPSA"
+      ],
+      [
+        "AASGF",
+        "SF"
+      ],
+      [
+        "QVQLQESGPGLV",
+        "KPSQTLSLTC"
+      ],
+      [
+        "YY",
+        "Y"
+      ],
+      [
+        "SLK",
+        "LT"
+      ],
+      [
+        "K",
+        "SG"
+      ],
+      [
+        "N",
+        "TY"
+      ],
+      [
+        "QVQ",
+        "LVQ"
+      ],
+      [
+        "A",
+        "S"
+      ],
+      [
+        "PL",
+        "TFGGG"
+      ],
+      [
+        "LE",
+        "WMG"
+      ],
+      [
+        "P",
+        "WTFGQGTKVEIK"
+      ],
+      [
+        "KV",
+        "TISC"
+      ],
+      [
+        "NYLAWYQQKPG",
+        "QPPKLLIY"
+      ],
+      [
+        "R",
+        "SV"
+      ],
+      [
+        "G",
+        "TV"
+      ],
+      [
+        "YLQWSSL",
+        "KASDTA"
+      ],
+      [
+        "CSY",
+        "AG"
+      ],
+      [
+        "RSDD",
+        "TAVYYCAR"
+      ],
+      [
+        "E",
+        "T"
+      ],
+      [
+        "DY",
+        "WGQGTLV"
+      ],
+      [
+        "L",
+        "M"
+      ],
+      [
+        "MD",
+        "SL"
+      ],
+      [
+        "WYLQKPGQSP",
+        "QLLIY"
+      ],
+      [
+        "PG",
+        "DS"
+      ],
+      [
+        "L",
+        "F"
+      ],
+      [
+        "LT",
+        "QSP"
+      ],
+      [
+        "RVTITC",
+        "RAS"
+      ],
+      [
+        "SI",
+        "YY"
+      ],
+      [
+        "I",
+        "IP"
+      ],
+      [
+        "QGRVTI",
+        "TA"
+      ],
+      [
+        "ST",
+        "STA"
+      ],
+      [
+        "T",
+        "TA"
+      ],
+      [
+        "EDTA",
+        "LYYC"
+      ],
+      [
+        "QSVLTQPPSV",
+        "SAAPGQ"
+      ],
+      [
+        "MTN",
+        "MD"
+      ],
+      [
+        "GG",
+        "TT"
+      ],
+      [
+        "TLSCRAS",
+        "QSV"
+      ],
+      [
+        "TY",
+        "FC"
+      ],
+      [
+        "P",
+        "EDFA"
+      ],
+      [
+        "TL",
+        "GI"
+      ],
+      [
+        "QV",
+        "H"
+      ],
+      [
+        "E",
+        "LT"
+      ],
+      [
+        "K",
+        "N"
+      ],
+      [
+        "WVRQAPGQGLE",
+        "WMGG"
+      ],
+      [
+        "EVQ",
+        "LVESG"
+      ],
+      [
+        "QSY",
+        "D"
+      ],
+      [
+        "Y",
+        "LE"
+      ],
+      [
+        "SLTV",
+        "SGL"
+      ],
+      [
+        "SL",
+        "KL"
+      ],
+      [
+        "ESLKISC",
+        "KG"
+      ],
+      [
+        "A",
+        "E"
+      ],
+      [
+        "KGLE",
+        "WIG"
+      ],
+      [
+        "Q",
+        "HY"
+      ],
+      [
+        "GDEADYYC",
+        "QV"
+      ],
+      [
+        "YLQMNSL",
+        "KT"
+      ],
+      [
+        "SSY",
+        "G"
+      ],
+      [
+        "DIVMTQSPDSLAVSLGERATINCKSS",
+        "QSVLY"
+      ],
+      [
+        "SR",
+        "I"
+      ],
+      [
+        "A",
+        "LVTVSS"
+      ],
+      [
+        "NN",
+        "WP"
+      ],
+      [
+        "P",
+        "N"
+      ],
+      [
+        "SP",
+        "SLK"
+      ],
+      [
+        "K",
+        "KPG"
+      ],
+      [
+        "DIVMTQSP",
+        "LSLPV"
+      ],
+      [
+        "WIRQPPGKALE",
+        "WLA"
+      ],
+      [
+        "TGLQTGD",
+        "EADYYC"
+      ],
+      [
+        "SGSG",
+        "TDF"
+      ],
+      [
+        "SR",
+        "G"
+      ],
+      [
+        "F",
+        "DL"
+      ],
+      [
+        "AK",
+        "NTL"
+      ],
+      [
+        "SY",
+        "ISS"
+      ],
+      [
+        "SC",
+        "KA"
+      ],
+      [
+        "H",
+        "V"
+      ]
+    ]
+  }
+}
