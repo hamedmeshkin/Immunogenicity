@@ -1,0 +1,201 @@
+﻿Therapeutic_antibody,ADA (%) reported on the paper,ADA (%) we found (study reports & FDA labels),"""study report"" and FDA label mismatch",FDA approval,Type of antibodies,different names,need modification/review (baseline ADA?),flag
+Abagovomab,68.1,,,No,Mouse,,,
+Abrilumab,0.4,,,No,Human,,,
+Actoxumab,0,,,No,Human,,,
+Adalimumab,14,6.8,,Yes,Human,,no,Added up all indications in table 2. None of them are exact 6.8%
+Aducanumab,5,0.6,,Yes,Human,,no,no mention of treatment emergent/baseline
+Afutuzumab,6.6,1.5,,No,Humanized,,,
+Alemtuzumab,5.1,83,,Yes,Humanized,,yes,"No subject numbers given. Only ADA percentage at each time point: 62% (1mo), 67% (3mo), 29% (12mo), 83% (13mo), 83% (15mo), 75% (24mo). We chose the largest ADA number."
+Alirocumab,3.9,5.4,,Yes,Human,,no,5.5%(504/9091) in trial 1/4.8%(147/3033) in placeo-controlled and active-controlled adults/3%(3/98) in trial 12 pediatric patients/total 5.4%
+Amatuximab,29.2,15.8,,No,Chimeric,,,
+Andecaliximab,21.2,14.3,,No,Humanized,,,
+Anifrolumab,3.3,2.6,,Yes,Human,,no,
+Atezolizumab,28.9,24.5,,Yes,Humanized,,yes,Only the ADA percentages were given: 13% - 36% so we took the average to get 24.5%
+Avelumab,5,16,,Yes,Human,,no,"Added up all the trial cases in table 9. 8.9% (7/79), 8.2% (9/110), 19% (62/326), 18% (41/226), 16% (65/411)"
+Basiliximab,1.5,1.2,,Yes,Chimeric,,yes,1.2% was the number for anti-idiotype antibody/(2/138) for single drug and (4/34) who received muromonab-CD3 afterwards were tested for HAMA (human-anti human antibody) so we chose anti-idiotype antibody./mentions ELISA results are highly dependent on sensitivity and specificity of the assay
+Bavituximab,58,,,No,Chimeric,,,
+Begelomab,28,21.4,,No,Mouse,,,
+Belimumab,2.4,1.8,,Yes,Human,,yes,"7% (4/563) in trial 2, 4.8% (27/559) in trial 3, 0.6% (2/321) in trial 4, 0 (0/224) in trial 5, 0 (0/53) in trial 6, 0 (/556) in trial 7, 0 (0/25) in open label pediatric/// so I think this should be 1.8% total. Some trials mention they are placebo controlled but do not show the subject numbers (who are treated and who are placebo) so we used the total subject number instead"
+Benralizumab,13,13,,Yes,Humanized,,no,
+Berlimatoxumab,0,,,No,Human,,,
+Bevacizumab,0.3,0.6,,Yes,Humanized,,no,
+Bezlotoxumab,0,0.2,,Yes,Human,,no,"Trial 1 &2: 0% (0/710), trial 3 (2/100)- > add up to get 0.2%"
+Bimekizumab,12.8,49.7,,Yes,Humanized,,no,"Added up all indications./Plaque psoriasis: 45%(116/257), psoriatic arthritis: 47% (201/431), non-radiographic axial spondyloarthritis: 57% (68/119), ankylosing spondylitis: 44% (86/194), hidradenitis suppurativa: 59% (171/291)"
+Birtamimab,0,9.1,,No,Humanized,,,
+Bleselumab,2.2,15.8,,No,Human,,,
+Blinatumomab,1.4,2,,Yes,Mouse,,no,"""less than 2%"""
+Bococizumab,25.5,32.1,,No,Humanized,,,
+Brazikumab,2.5,0.4,,No,Human,,,
+Brentuximab,35,23.7,,Yes,Chimeric,,no,"Added up all the numbers/(58+0+8)/(156+26+97)*100// added up study 1, 2 (adult), study 7 (pediatric), study 8 (adult with LBCL)"
+Brodalumab,3,3,,Yes,Human,,no,
+Burosumab,5,15.2,,Yes,Human,,yes,"should be 15.2%. Added up all the numbers. XLH: 0% (0/13) 1-4 yo patients, 19% (10/52) 5-12 patients, 15% (20/131) adults. TIO: 14% (2/14) adults. so 15.2%. Previous number skipped the 1-4 yo patients population."
+Canakinumab,0,1.8,,Yes,Human,,no,
+Cemiplimab,1.3,2,,Yes,Human,,no,"during the treament ranging from 8 = 19 months, the incidence of ADA…"
+Cendakimab ,3,15.6,,No,Humanized,,,
+Certolizumab,8,19.8,,Yes,Humanized,,yes,"Added up for all indications/Crohn's disease: 8% (monotherapy), 3% (treated with immunosupressant)/open label Crohn's disease study: 23% (207/903) ""developed ADA"" / rheumatoid arthritis: 7% (105/1509) including placebo, monotherapy, 2% (with immunosuppressant)/ psoriasis: 8% (22/265) - 400mg/2wks, 19% (54.281) - 200mg/2wks/spondyloarthritis (drug-tolerant ECL assay): 97% (248/255)/pediatric with JIA, polyarthritis: 92.4% ""treatment emergent"". Some ADAs have subject number some ADAs do not. Not sure how to determine the ADA "
+Cinpanemab,0,,,No,Human,,,
+Clazakizumab,1.8,2.6,,No,Humanized,,,
+Clivatuzumab,10,,,No,Humanized,,,
+Coltuximab,33,1.2,,No,Humanized,,,
+Conatumumab,0,,,No,Human,,,
+Concizumab,17,25.4,,Yes,Humanized,,no,"""treatment developed ADA"""
+Crenezumab,0,1.7,,No,Humanized,,,
+Crizanlizumab,0.9,0.5,,Yes,Humanized,,no,"multiple cases (0/45, 1/61, 0/84) merged"
+Dacetuzumab,0,,,No,Humanized,,,
+Daclizumab,19,19,,Yes,Humanized,,no,
+Dalotuzumab,0,,,No,Humanized,,,
+Dapirolizumab,8.9,33.5,,No,Humanized,,,
+Daratumumab,0,0.6,,Yes,Human,,no,
+Denosumab,1,0.7,,Yes,Human,,no,"(0.7%~55/8113) in 5 year study, (0.3%~7/2758) in 3 year study. We choose 5 year study. The reason why we chose 5yr study instead of merging the number is because we weren't sure if the subject pools for both studies are different or overlapping."
+Depatuxizumab,5,0,,No,Humanized,,,
+Derlotuximab,33.3,,,No,Chimeric,,,
+Dinutuximab,17,22.2,,Yes,Chimeric,,no,"monotherapy:20.6% (86/418), combination with lenalidomide isotretinoin: 48.1% (13/27). To sum up we get the number 22.2%"
+Disitamab,58.6,,,No,Humanized,,,
+Domagrozumab,9.4,3.3,,No,Humanized,PF06252616,,
+Dupilumab,4,6.6,,Yes,Human,,no,added up all the indiciation in table 15
+Durvalumab,3.3,3.1,,Yes,Human,,no,treatment emergent
+Dusigitumab,0,0,,No,Human,MEDI-573,,
+Eculizumab,2,3.1,,Yes,Humanized,,yes,"PHN population - 2%(3/196)-ELISA, 3% (5/161)-ECL assay during the entire treatment. aHUS population - 3% (3/100)-ECL// so if we choose ECL assay for entire population this should be 3.1%, if we only choose PHP population with ELISA assay that is 2%"
+Edrecolomab,80,,,No,Chimeric,,,
+Efalizumab,6.3,6.3,,No,Humanized,,,
+Eldelumab,0,0.4,,No,Human,MDX-1100,,
+Elotuzumab,18.5,20.5,,Yes,Humanized,,yes,"I still stick with the number but the paper ADA was chosen for the first ADA./eleoquent-2 study: 18.5% (72/390), eloquent-3 study: 36% (19/53). to sum up we get 20.5%. These are treatment emergent ADAs"
+Emapalumab,3.5,8.8,,Yes,Human,,no,"3% (1/33) in HLH trial, 14% (5/35) in HLH/MAS trial. added the number up to get 8.8%"
+Emibetuzumab,0,1.3,,No,Humanized,,,
+Emicizumab,3.5,5.1,,Yes,Humanized,,no,
+Enfortumab,1,3.3,,Yes,Human,,no,combination of single agent (3.6%) + multiple agent (pembrolizumab) (3.0%)
+Enokizumab,9,3.2,,No,Humanized,,,
+Erenumab,2.4,4.8,,Yes,Human,,yes,ada development (so treatment emergent): 6.2% (48/778) in 70mg once monthly and 2.6% (13/504) in 140mg once monthly -> total 4.8%
+Etaracizumab,0,,,No,Humanized,,,
+Etrolizumab,5,16.2,,No,Humanized,,,
+Evolocumab,0.3,0.3,,Yes,Human,,yes,"""positive for the development of binding antibodies"" ->treatment emergent (adult, 0.3%, 48/17992). 0% in pediatric patients but pediatric subjects number missing"
+Farletuzumab,8.7,26.7,,No,Humanized,,,
+ficlatuzumab,0,0,,No,Humanized,,,
+Fontolizumab,7.8,,,No,Humanized,,,
+Fremanezumab,1.6,1.6,,Yes,Humanized,,no,
+Frovocimab,6.5,1.9,,No,Humanized,LY3015014,,
+fulranumab,2.9,0.4,,No,Human,,,
+futuximab,0,0.8,,No,Chimeric,,,
+Galcanezumab,8.7,4.8,,Yes,Humanized,,yes,"Worth discussion: 4.8% (33.688)""ADA development"" up to 6mo (study 1, 2, 3)/12.5% (16/128) for open label study ""developed"". In this case should we add up the number ? or choose the high ADA?"
+Galiximab,0,0,,No,Chimeric,,,
+Gancotamab,2.9,2.9,,No,Human,MM302,,
+Ganitumab,5.2,0.8,,No,Human,,,
+Gantenerumab,0,4.2,,No,Human,,,
+Gedivumab,1,0,,No,Human,MHAA4549A,,
+Gemtuzumab,0,,,Yes,Humanized,,no,not studied
+Gevokizumab,37,8.2,,No,Humanized,,,
+Glembatumumab,3.8,0,,No,Human,,,
+Golimumab,4,4,,Yes,Human,,yes,We discussed this in Teams: 4% (EIA) - but the serum concentration of drug can interfere with the result in EIA method. There was inconclusive result as well. //Drug-tolerant EIA: eliminate inconclusive category. 23% 
+Gosuranemab,6.2,3.2,,No,Humanized,BIIB092,,
+Gremubamab,2.5,2.4,,No,Human,,,
+Guselkumab,6,5.4,,Yes,Human,,yes,Should be 5.4%. Added up all the numbers by symptoms. Denominators not given so we deduced the denominators. Plaque psoriasis: 6% (46/~767). psoriatic arthritis: 2% (15/~ 750). Ulcerative colitis: 11% (48/~436). Crohn's disease: 5% (30/634). Total 5.4%. We made a mistake while calculating the final ADA.
+Ibalizumab,15,2.5,,Yes,Humanized,,yes,"1 sample tested positive in trial TM-301 and TMB-202 (low titer). The subject number is not given. At the time of deciding ADA, we were told to use an arbitrary number (2.5%) for the ADA"
+Icrucumab,0,0,,No,Human,LY3012212,,
+Idarucizumab,4,4,,Yes,Humanized,,yes,"4. The label explicitly mentions ""treatment emergent"""
+Imalumab,7.4,4.8,,No,Human,,,
+Inclacumab,3.6,1.7,,No,Human,,,
+Indusatumab,0,4.9,,No,Human,MLN0264,,
+Infliximab,30.5,64.4,,Yes,Chimeric,,yes,there were two different docs; 1 of them did not have total number of subjects. we used the other one
+Inotuzumab,2,3,,Yes,Humanized,,no,
+Ipilimumab,2,5.7,,Yes,Human,,yes,we added all the ADA from the table 24 - the paragraphs don't explain all the ADA lists in the table. It is unclear if they have used the same assay methods/every listed ADA for each indication is treatment emergent or not.
+Iscalimab,1.8,1.7,,No,Human,,,
+Itolizumab,15.8,15.5,,No,Humanized,,,
+Ixekizumab,8.5,13.6,,Yes,Humanized,,yes,"Only ADA % was given: 22%(plaque psoriasis), 11% (psoriatic arthritis), 5.2% (ankylosing spondylitis), 8.9% (non-radiographic axial spondyloarthritis)."
+Labetuzumab,0,,,No,Humanized,,,
+Lanadelumab,7,12.6,,Yes,Human,,yes,"9.75 - 12.6%./ Trial 1: 12% (10/~83) for 12+yo and adults. 83 number includes placebo patients. Baseline ADA positive: 3. / Open label: 15% (3/20) for 6-12 yo patients. 0 baseline ADA/ To sum up: without subtracting baseline ADA: 12.6%, subtracting baseline ADA: 9.7%"
+Lebrikizumab,30,2.8,,Yes,Humanized,,no,"""developed ADA"""
+Levilimab,0,,,No,Humanized,,,
+Lifastuzumab,18,24.3,,No,Humanized,DNIB0600A,,
+Ligelizumab,6.3,16.7,,No,Humanized,,,
+Lintuzumab,0,0,,No,Humanized,,,
+Lorvotuzumab,0,,,No,Humanized,,,
+Lutikizumab,16.8,20.4,,No,Humanized,,,
+Matuzumab,10,,,No,Humanized,,,
+Mavrilimumab,3.1,6.1,,No,Human,,,
+Mepolizumab,13,3.8,,Yes,Humanized,,yes,"should be 3.8%/asthma: adult & adolescent: 6% (15/260), 6-11yo: 6% (2/35)/COPD: 52wk treatment: 3%(6/196), 52-104wk: 4% (35/999)/HES: 52wk: 2% (1/68), 32wk: 2% (1/53)"
+Modotuximab,0,,,No,Humanized,,,
+Mogamulizumab,4.2,14.1,,Yes,Humanized,,no,no mention of treatment emergent/baseline
+Motavizumab,1.5,,,No,Humanized,,,
+Moxetumomab,59,36.8,,Yes,Mouse,,yes,should be 36.8%/59% (45/76) is baseline ADA! 70/80 had ADA during any time of the study. ADA positive baseline + druing is 73./ that means 28 subjects are treatment emergent.
+Namilumab,0.9,12.7,,No,Human,,,
+Naptumomab,72.5,,,No,Chimeric,,,
+Natalizumab,9,9.5,,Yes,Humanized,,yes,"9% (MS1 studies), 10% (CD studies). Both without subject numbers only percentages so chose the median value"
+Navicixizumab,29,26.3,,No,Humanized,,,
+Necitumumab,4.1,4.1,,Yes,Human,,no,
+Netakimab,0,,,No,Humanized,,,
+Nirsevimab,28,5.4,,Yes,Human,,yes,"Added up all the numbers/trial 3: 3.3% (16/492)/trial 4: 5% (95/1778)/trial 5: 6% (32/538) at first season day 361, 9% (13/144) at 2nd season day 361./trial 8: 13% (9/67)// So trial 5 has 2 seasons and not sure how to calculate the ADA. // Only considering season 1 in trial 5: 5.3%/ only considering season 2 in trial 5:5.4%/considering season 1 and season 2 separately (add all the numberes) 5.5%"
+Nivolumab,7.7,8.9,,Yes,Human,,yes,"All drug variations have different ADA/OPDIVO: 8.5% (24/281) - treatment emergent, ECL assay/OPDIVO-QVANTIG: 23% (46/202) ""developed ADA"", 7% (15/215) for invravenous injection. /OPDUALAG (mix of nivolumab and relatilimab): 3.8% (11/288), also mentions nivolumab treated ADA: 5.9% (16/272). Total 8.9%"
+Obexelimab,17.5,66.7,,No,Humanized,,,
+Obiltoxaximab,2.5,2.5,,Yes,Chimeric,,no,
+Ocaratuzumab,1,,,No,Humanized,,,
+Ocrelizumab,1,0.9,,Yes,Humanized,,no,
+Ofatumumab,0,0.2,,Yes,Human,,no,"""treatment induced"""
+Olaratumab,3.5,3.5,,Yes,Humanized,,no,
+Olokizumab,9.8,4.1,,No,Humanized,,,
+Omalizumab,0,0.1,,Yes,Humanized,,no,
+Onartuzumab,11.9,2.4,,No,Humanized,,,
+Ontuxizumab,4.5,4.5,,No,Humanized,,,
+Opicinumab,3.6,0.2,,No,Human,,,
+Otlertuzumab,5,0,,No,Humanized,,,
+Ozanezumab,2.5,,,No,Humanized,,,
+Palivizumab,1.1,1.5,,Yes,Humanized,,yes,Only ADA percentages were given - 1.1% and 1.5%. We chose the higher ADA number
+Pamrevlumab,0,8.2,,No,Human,,,
+Panitumumab,2.8,4.2,,Yes,Human,,no,"5.2% (74/1417) in monotherapy, 3.2% (47/1470) in combination therapy. so total would be 4.2%"
+PankoMab,25,,,No,Humanized,,,
+Parsatuzumab,4.7,3.3,,No,Humanized,,,
+Pateclizumab,4.7,8.2,,No,Humanized,MLTA3698A,,
+Pembrolizumab,1.7,2.1,,Yes,Humanized,,no,treatment emergent ADA
+Pertuzumab,2.8,5.6,,Yes,Humanized,,yes,"*** Both labels are different so we merged the numbers ***Perjeta: 3% (13/389) in treated group cleopatra study, 0.3% (1/383) in neoadjuvant period of berenice (during this study patients received perjeta + combination of drugs).//Phesgo:12.9% (31/241) in Federica, 2.1% (5/241) in Federica neoadjuvant chemo and 10.6%(26/245) in IV, 0.4% (1/245) in neoadjuvant in IV// Including neoadjuvant cases: 4.4%, excluding neoadjuvant ada positive cases: 8%"
+Pinatuzumab,1.4,0.7,,No,Humanized,,,
+Polatuzumab,2.6,2.5,,Yes,Humanized,,no,"1.4% (6/427) in polarix study, 6% (8/134) in go29365 study ->2.5"
+Ponezumab,0,0,,No,Humanized,,,
+Prasinezumab,0,0,,No,Humanized,,,
+Prezalumab,0,,,No,Humanized,,,
+Racotumomab,85,,,No,Mouse,,,
+Ramucirumab,4.1,3,0,Yes,Human,,no,treatment emergent
+Ranibizumab,3.5,10.3,,Yes,Humanized,,yes,"The other labels have (1%-9%) without subject numbers. We are using the numbers from the Susvimo label/In Susvimo label: baseline ADA: 2.1-3.6%. AMD:12%(29/247), DME: 13%(41/320), DR: 17%(17/99). The added up ADA is 13.1% however we can consider subtracting the baseline ADA: 9.5-11%// subtracted the median baseline ADA (2.85%) to get 10.3%"
+Refanezumab,9.4,,,No,Humanized,,,
+Reslizumab,5,5.1,,Yes,Humanized,,yes,"Should be 5.1%. The label explicitly mentions ""treatment emergent"", One study: 5.4% (53/983). Open label study: 4.8% (49/1014). Added up together, 5.1%. Previously when we were determinnig we excluded the one study and only included the open label study. However the label explictly mentions these are ""treatment emergent"""
+Risankizumab,24,17.6,,Yes,Humanized,,no,"Added up all the indications/plaque psoriasis: 24% (263/1079)/psoriatic arthritis: 12.1% (79/652)/Crohn's disease: 3.4% (2/58) - 360mg, 0% (0/57) - 180mg/ Ulcerative colitis: 8.9% (8/90) - 180mg, 4.4%(4/91) - 360mg"
+Rituximab,11,9.2,,Yes,Chimeric,,yes,"Changed from 10.8 -> 9.2/Rituxan and other products:1.1% (4/356) ELISA// RA: 11% (273/2578), GPA & MPA: 23% (23/99), PV1 (new ELISA assay): 56% (19/34), PV2 - 32% (20/63)/Rituxan Hycela - treatment emergent for Rituxan:table 15: (3/76), (1/77), (3/210), (3/197), table 16: (6/87), (2/85)"
+Robatumumab,0,0,,No,Human,,,
+Roledumab,0,,,No,Human,,,
+Romosozumab,18.1,18.1,,Yes,Humanized,,no,
+Rovalpituzumab,0,1.4,,No,Humanized,,,
+Sarilumab,3.8,5.5,,Yes,Human,,yes,"Only ADA % is given (1.8% - 9.2%), The median value is 5.5"
+Secukinumab,1,0.4,,Yes,Human,,no,less than 1% (limitation of detecting ADA in presence of the drug)/ 0.4% (less than 1%) in up to 52wk treatment
+Setrusumab,0,10.8,,No,Human,,,
+Sifalimumab,0,14.8,,No,Human,,,
+Siltuximab,0.2,2,,Yes,Chimeric,,yes,"0% (EIA), 2% (ECLIA)"
+Sirukumab,2.9,2.5,,No,Human,,,
+Solanezumab,3.5,8.3,,No,Humanized,,,
+Suptavumab,5,1.2,,No,Human,,,
+Sutimlimab,8,12,,Yes,Humanized,,no,"""developed ADA"""
+Suvratoxumab,3,0.8,,No,Human,,,
+Tabalumab,4.4,1.6,,No,Human,,,
+Talacotuzumab,17.5,24.7,,No,Humanized,,,
+Tarextumab,26,26.2,,No,Human,,,
+Temelimab,0,0,,No,Humanized,,,
+Tezepelumab,2.1,2,,Yes,Human,,no,2% is treatment emergent. 11 patients - the toal is not 601 (this includes placebos)
+Tibulizumab,-,3.9,,No,Humanized,LY3090106,,
+Ticilimumab,2,12.6,,No,Human,,,
+Tigatuzumab,0,,,No,Humanized,,,
+Tildrakizumab,6.5,6.5,,Yes,Humanized,,no,
+Tocilizumab,2,1.6,,Yes,Humanized,,no,46/2876
+Tomuzotuximab,-,8.1,,No,Humanized,,,
+Toripalimab,1,3.6,,Yes,Humanized,,no,(3.4% from 146 subjects) + (3.7% from 190 subjects) -> 3.6% total. specifically treatment emergent numbers
+Tosatoxumab,2.1,3.1,,No,Human,,,
+Tovetumab,2.9,7.5,,No,Human,MEDI-575,,
+Tralokinumab,0.5,4.6,,Yes,Human,,yes,"During the initial 16wk, incidence of ADA was 1.4 for subjects who got treated with the drug. (However the later paragraph mentions: across all trial period, ADA incidence for subjects who received ADBRY was 4.6%). So I think we should change this from 1.4 to 4.6"
+Trastuzumab,8.1,3.8,,Yes,Humanized,,yes,"There was a typo! Should be 3.8%. Added up all the different documents: 1, 2, 3, 6, 10 Labels: (1+49+21+30+47+64+5+1)/(903+2231+793+296+295+1243+241+245)*100"
+Ublituximab,0,81,,Yes,Chimeric,,no,"Although ADA is high, the presence of ADA had no observable impact on the safety/efficacy of the drug"
+Ustekinumab,4,7.7,,Yes,Human,,yes,"No subject numbers. Only percentages given. plaque psoriasis and psoriatric arthritis: 6-12.4% (mid 9.2%). Crohn's disease and ulcerative colitis: 2.9-4.6% (mid: 3.75%). Or if we range it as 2.9-12.4, the mid value would be 7.65%"
+Utomilumab,40.7,59,,No,Human,,,
+Varlilumab,0,0,,No,Human,,,
+Vatelizumab,2.6,0.7,,No,Humanized,,,
+Vedolizumab,9.5,5.5,,Yes,Humanized,,no,Intraveneous: 6% (86/1427)/Subcutaneous: 3.4% (13/381). Added up the number to get 5.5%
+Veltuzumab,19.5,9.1,,No,Humanized,,,
+Xentuzumab,2.3,17.2,,No,Humanized,,,
+Zalutumumab,0,,,No,Human,,,
+Zolbetuximab,0,9.5,4.4,Yes,Chimeric,,no,
+Zolimomab,85.7,,,No,Mouse,,,
